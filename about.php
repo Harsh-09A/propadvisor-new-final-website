@@ -96,23 +96,6 @@
               </div>
             </div>
           </div>
-          <!-- <div
-              class="absolute-middle-right md-absolute-middle-center right-minus-45px md-right-auto d-inline-block text-center z-index-9">
-              <a
-                href="https://www.youtube.com/watch?v=cfXHhfNy7tU"
-                class="bg-white box-shadow-extra-large rounded-circle video-icon-box video-icon-extra-large popup-youtube d-inline-block"
-                data-anime='{ "translate": [0, 0], "scale": [0,1], "duration": 1000, "delay": 300, "staggervalue": 300, "easing": "easeOutBack" }'>
-                <span>
-                  <span class="video-icon bg-white">
-                    <i class="fa-solid fa-play text-base-color"></i>
-                    <span class="video-icon-sonar">
-                      <span
-                        class="video-icon-sonar-bfr bg-base-color opacity-9"></span>
-                    </span>
-                  </span>
-                </span>
-              </a>
-            </div> -->
         </div>
         <div
           class="col-xl-5 col-lg-6 offset-lg-1 col-md-9 ps-6 text-center text-lg-start lg-ps-15px"
@@ -234,7 +217,7 @@
               <p class="lh-24">Lorem simply text</p>
             </div>
             <div class="col-sm-6 last-paragraph-no-margin text-center">
-              <h2 class="fw-700 text-dark-gray mb-5px alt-font">1500+</h2>
+              <h2 class="fw-700 text-dark-gray mb-5px alt-font">500+</h2>
               <span class="fs-18 alt-font ls-minus-05px fw-500 text-dark-gray">Satisfied Buyers</span>
               <p class="lh-24">Lorem simply text</p>
             </div>
@@ -280,16 +263,17 @@
             <div
               class="feature-box-content border-start border-color-extra-medium-gray ps-40px pe-40px lg-ps-15px lg-pe-15px last-paragraph-no-margin">
               <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-0">
-                50+
+                750+
               </h2>
               <span
-                class="text-dark-gray fw-500 fs-20 xs-fs-18 alt-font ls-minus-05px">Active Clients</span>
+                class="text-dark-gray fw-500 fs-20 xs-fs-18 alt-font ls-minus-05px">Channel Partner</span>
               <!-- <p class="text-light-opacity">Lorem ipsum dolor amet</p> -->
             </div>
             <!-- <div class="feature-box-overlay bg-base-color"></div> -->
           </div>
         </div>
         <!-- end fancy text box item -->
+
         <!-- start fancy text box item -->
         <div class="col-lg-6 col-md-8 fancy-text-box-style-02 mb-30px">
           <div
@@ -297,24 +281,25 @@
             <div
               class="feature-box-icon ms-40px me-40px lg-ms-15px lg-me-15px">
               <img
-                src="img/common/animated_icons/fans.gif"
+                src="img/common/animated_icons/building.gif"
                 class="h-100px"
                 alt="" />
             </div>
             <div
               class="feature-box-content border-start border-color-extra-medium-gray ps-40px pe-40px lg-ps-15px lg-pe-15px last-paragraph-no-margin">
               <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-0">
-                500+
+                32+
               </h2>
               <span
                 class="text-dark-gray fw-500 fs-20 xs-fs-18 alt-font ls-minus-05px">
-                Happy Families
+                Projects Launched
               </span>
             </div>
             <!-- <div class="feature-box-overlay bg-base-color"></div> -->
           </div>
         </div>
         <!-- end fancy text box item -->
+
         <!-- start fancy text box item -->
         <div class="col-lg-6 col-md-8 fancy-text-box-style-02 md-mb-30px">
           <div
@@ -329,7 +314,7 @@
             <div
               class="feature-box-content border-start border-color-extra-medium-gray ps-40px pe-40px lg-ps-15px lg-pe-15px last-paragraph-no-margin">
               <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-0">
-                1,000+
+                5,000+
               </h2>
               <span
                 class="text-dark-gray fw-500 fs-20 xs-fs-18 alt-font ls-minus-05px">
@@ -341,6 +326,7 @@
           </div>
         </div>
         <!-- end fancy text box item -->
+
         <!-- start fancy text box item -->
         <div class="col-lg-6 col-md-8 fancy-text-box-style-02">
           <div
@@ -348,17 +334,17 @@
             <div
               class="feature-box-icon ms-40px me-40px lg-ms-15px lg-me-15px">
               <img
-                src="img/common/animated_icons/building.gif"
+                src="img/common/animated_icons/fans.gif"
                 class="h-100px"
                 alt="" />
             </div>
             <div
               class="feature-box-content border-start border-color-extra-medium-gray ps-40px pe-40px lg-ps-15px lg-pe-15px last-paragraph-no-margin">
               <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-0">
-                100+
+                300+
               </h2>
 
-              <span class="text-dark-gray fw-500 fs-20 alt-font ls-minus-05px">Projects Handled
+              <span class="text-dark-gray fw-500 fs-20 alt-font ls-minus-05px"> Happy Families
               </span>
               <!-- <p class="text-light-opacity">Lorem ipsum dolor amet</p> -->
             </div>
@@ -451,102 +437,106 @@
   </section>
   <!-- end section -->
 
-  <!-- start clients logo title section -->
-  <section class="py-0">
-    <div class="container text-center">
-      <div class="mb-10px">
-        <!-- <span
+  <template class="d-none">
+
+    <!-- start Team title section -->
+    <section class="py-0">
+      <div class="container text-center">
+        <div class="mb-10px">
+          <!-- <span
             class="w-25px h-1px d-inline-block bg-base-color me-5px align-middle"></span> -->
-        <span
-          class="text-gradient-base-color fs-15 alt-font fw-700 ls-05px text-uppercase d-inline-block align-middle">Your Property Partner</span>
+          <span
+            class="text-gradient-base-color fs-15 alt-font fw-700 ls-05px text-uppercase d-inline-block align-middle">Your Property Partner</span>
+        </div>
+        <h4 class="text-dark-gray alt-font fw-600 ls-minus-2px mb-20px">
+          Our Team
+        </h4>
       </div>
-      <h4 class="text-dark-gray alt-font fw-600 ls-minus-2px mb-20px">
-        Our Team
-      </h4>
-    </div>
-  </section>
-  <!-- end clients logo title section -->
+    </section>
+    <!-- end Team title section -->
 
-  <!-- start section -->
-  <section class="pb-3">
-    <div class="container-fluid p-0">
-      <div
-        class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 g-0 justify-content-center gap-3"
-        data-anime='{ "el": "childs", "translateY": [30, 0], "rotateX":[30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-        <!-- start team member item -->
-        <div class="col team-style-10 md-ps-15px md-pe-15px md-mb-30px">
-          <figure class="mb-0 position-relative overflow-hidden">
-            <img src="img/about/profile_photo_1.jpg" class="w-100" alt="" />
-            <img
-              src="img/about/profile_photo_2.jpg"
-              class="hover-switch-image"
-              alt="" />
-            <figcaption class="w-100 h-100 d-flex flex-wrap">
-              <div
-                class="social-icon d-flex flex-column flex-shrink-1 mb-auto p-30px ms-auto">
-                <a href="" target="_blank" class="text-white bg-dark-gray"><i class="fa-brands fa-linkedin icon-small"></i></a>
-              </div>
-              <div
-                class="team-member-strip w-100 mt-auto d-flex align-items-center pt-15px pb-15px ps-30px pe-30px bg-white">
-                <span
-                  class="team-member-name fw-600 alt-font text-dark-gray fs-18 ls-minus-05px">Jeremy dupont</span>
-                <span class="member-designation fs-15 lh-20 ms-auto alt-font">Founder</span>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-        <!-- end team member item -->
+    <!-- start section -->
+    <section class="pb-3">
+      <div class="container-fluid p-0">
+        <div
+          class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 g-0 justify-content-center gap-3"
+          data-anime='{ "el": "childs", "translateY": [30, 0], "rotateX":[30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+          <!-- start team member item -->
+          <div class="col team-style-10 md-ps-15px md-pe-15px md-mb-30px">
+            <figure class="mb-0 position-relative overflow-hidden">
+              <img src="img/about/profile_photo_1.jpg" class="w-100" alt="" />
+              <img
+                src="img/about/profile_photo_2.jpg"
+                class="hover-switch-image"
+                alt="" />
+              <figcaption class="w-100 h-100 d-flex flex-wrap">
+                <div
+                  class="social-icon d-flex flex-column flex-shrink-1 mb-auto p-30px ms-auto">
+                  <a href="" target="_blank" class="text-white bg-dark-gray"><i class="fa-brands fa-linkedin icon-small"></i></a>
+                </div>
+                <div
+                  class="team-member-strip w-100 mt-auto d-flex align-items-center pt-15px pb-15px ps-30px pe-30px bg-white">
+                  <span
+                    class="team-member-name fw-600 alt-font text-dark-gray fs-18 ls-minus-05px">Jeremy dupont</span>
+                  <span class="member-designation fs-15 lh-20 ms-auto alt-font">Founder</span>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- end team member item -->
 
-        <!-- start team member item -->
-        <div class="col team-style-10 md-ps-15px md-pe-15px md-mb-30px">
-          <figure class="mb-0 position-relative overflow-hidden">
-            <img src="img/about/profile_photo_2.jpg" class="w-100" alt="" />
-            <img
-              src="img/about/profile_photo_1.jpg"
-              class="hover-switch-image"
-              alt="" />
-            <figcaption class="w-100 h-100 d-flex flex-wrap">
-              <div
-                class="social-icon d-flex flex-column flex-shrink-1 mb-auto p-30px ms-auto">
-                <a href="" target="_blank" class="text-white bg-dark-gray"><i class="fa-brands fa-linkedin icon-small"></i></a>
-              </div>
-              <div
-                class="team-member-strip w-100 mt-auto d-flex align-items-center pt-15px pb-15px ps-30px pe-30px bg-white">
-                <span
-                  class="team-member-name fw-600 alt-font text-dark-gray fs-18 ls-minus-05px">Jeremy dupont</span>
-                <span class="member-designation fs-15 lh-20 ms-auto alt-font">Developer</span>
-              </div>
-            </figcaption>
-          </figure>
+          <!-- start team member item -->
+          <div class="col team-style-10 md-ps-15px md-pe-15px md-mb-30px">
+            <figure class="mb-0 position-relative overflow-hidden">
+              <img src="img/about/profile_photo_2.jpg" class="w-100" alt="" />
+              <img
+                src="img/about/profile_photo_1.jpg"
+                class="hover-switch-image"
+                alt="" />
+              <figcaption class="w-100 h-100 d-flex flex-wrap">
+                <div
+                  class="social-icon d-flex flex-column flex-shrink-1 mb-auto p-30px ms-auto">
+                  <a href="" target="_blank" class="text-white bg-dark-gray"><i class="fa-brands fa-linkedin icon-small"></i></a>
+                </div>
+                <div
+                  class="team-member-strip w-100 mt-auto d-flex align-items-center pt-15px pb-15px ps-30px pe-30px bg-white">
+                  <span
+                    class="team-member-name fw-600 alt-font text-dark-gray fs-18 ls-minus-05px">Jeremy dupont</span>
+                  <span class="member-designation fs-15 lh-20 ms-auto alt-font">Developer</span>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- end team member item -->
+          <!-- start team member item -->
+          <div class="col team-style-10 md-ps-15px md-pe-15px md-mb-30px">
+            <figure class="mb-0 position-relative overflow-hidden">
+              <img src="img/about/profile_photo_1.jpg" class="w-100" alt="" />
+              <img
+                src="img/about/profile_photo_2.jpg"
+                class="hover-switch-image"
+                alt="" />
+              <figcaption class="w-100 h-100 d-flex flex-wrap">
+                <div
+                  class="social-icon d-flex flex-column flex-shrink-1 mb-auto p-30px ms-auto">
+                  <a href="" target="_blank" class="text-white bg-dark-gray"><i class="fa-brands fa-linkedin icon-small"></i></a>
+                </div>
+                <div
+                  class="team-member-strip w-100 mt-auto d-flex align-items-center pt-15px pb-15px ps-30px pe-30px bg-white">
+                  <span
+                    class="team-member-name fw-600 alt-font text-dark-gray fs-18 ls-minus-05px">Jeremy dupont</span>
+                  <span class="member-designation fs-15 lh-20 ms-auto alt-font">Designer</span>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- end team member item -->
         </div>
-        <!-- end team member item -->
-        <!-- start team member item -->
-        <div class="col team-style-10 md-ps-15px md-pe-15px md-mb-30px">
-          <figure class="mb-0 position-relative overflow-hidden">
-            <img src="img/about/profile_photo_1.jpg" class="w-100" alt="" />
-            <img
-              src="img/about/profile_photo_2.jpg"
-              class="hover-switch-image"
-              alt="" />
-            <figcaption class="w-100 h-100 d-flex flex-wrap">
-              <div
-                class="social-icon d-flex flex-column flex-shrink-1 mb-auto p-30px ms-auto">
-                <a href="" target="_blank" class="text-white bg-dark-gray"><i class="fa-brands fa-linkedin icon-small"></i></a>
-              </div>
-              <div
-                class="team-member-strip w-100 mt-auto d-flex align-items-center pt-15px pb-15px ps-30px pe-30px bg-white">
-                <span
-                  class="team-member-name fw-600 alt-font text-dark-gray fs-18 ls-minus-05px">Jeremy dupont</span>
-                <span class="member-designation fs-15 lh-20 ms-auto alt-font">Designer</span>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-        <!-- end team member item -->
       </div>
-    </div>
-  </section>
-  <!-- end section -->
+    </section>
+    <!-- end section -->
+
+  </template>
 
   <!-- start section -->
   <section

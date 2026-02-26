@@ -307,93 +307,215 @@
   </section>
   <!-- end banner slider -->
 
-  <!-- start about section -->
-  <section class="pt-50px">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 position-relative">
-          <div
-            class="row align-items-center position-relative md-mb-15"
-            data-anime='{ "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+  <template class="d-none">
+    <!-- start about section -->
+    <section class="pt-50px">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 position-relative">
             <div
-              class="col-md-5 sm-mb-30px home_image_1"
-              data-bottom-top="transform: translateY(50px)"
-              data-top-bottom="transform: translateY(-50px)">
-              <!-- <img class="w-100" src="https://placehold.co/421x524" alt="" /> -->
-              <img class="w-100" src="img/home/home_about_3.jpg" alt="" />
-            </div>
-            <div
-              class="col-lg-7 col-md-7 sm-mb-30px text-end home_image_2"
-              data-bottom-top="transform: translateY(-30px)"
-              data-top-bottom="transform: translateY(30px)">
-              <!-- <img
+              class="row align-items-center position-relative md-mb-15"
+              data-anime='{ "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+              <div
+                class="col-md-5 sm-mb-30px home_image_1"
+                data-bottom-top="transform: translateY(50px)"
+                data-top-bottom="transform: translateY(-50px)">
+                <!-- <img class="w-100" src="https://placehold.co/421x524" alt="" /> -->
+                <img class="w-100" src="img/home/home_about_3.jpg" alt="" />
+              </div>
+              <div
+                class="col-lg-7 col-md-7 sm-mb-30px text-end home_image_2"
+                data-bottom-top="transform: translateY(-30px)"
+                data-top-bottom="transform: translateY(30px)">
+                <!-- <img
                   src="https://placehold.co/261x313"
                   alt=""
                   class="box-shadow-quadruple-large md-w-100" /> -->
-              <img
-                src="img/home/home_about_2.jpg"
-                alt=""
-                class="box-shadow-quadruple-large md-w-100" />
-            </div>
-            <div
-              class="w-50 sm-w-100 overflow-hidden position-absolute sm-position-relative left-140px bottom-minus-200px sm-bottom-0px sm-left-0px p-0 sm-ps-15px sm-pe-15px home_image_3"
-              data-shadow-animation="true"
-              data-animation-delay="100"
-              data-bottom-top="transform: translateY(20px)"
-              data-top-bottom="transform: translateY(-20px)">
-              <!-- <img
+                <img
+                  src="img/home/home_about_2.jpg"
+                  alt=""
+                  class="box-shadow-quadruple-large md-w-100" />
+              </div>
+              <div
+                class="w-50 sm-w-100 overflow-hidden position-absolute sm-position-relative left-140px bottom-minus-200px sm-bottom-0px sm-left-0px p-0 sm-ps-15px sm-pe-15px home_image_3"
+                data-shadow-animation="true"
+                data-animation-delay="100"
+                data-bottom-top="transform: translateY(20px)"
+                data-top-bottom="transform: translateY(-20px)">
+                <!-- <img
                   src="https://placehold.co/500x614"
                   alt=""
                   class="box-shadow-quadruple-large w-100" /> -->
-              <img
-                src="img/home/home_about_1.jpg"
-                alt=""
-                class="box-shadow-quadruple-large w-100" />
+                <img
+                  src="img/home/home_about_1.jpg"
+                  alt=""
+                  class="box-shadow-quadruple-large w-100" />
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-xl-5 col-lg-6 offset-xl-1 md-mt-20 sm-mt-0"
+            data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+            <div class="mb-10px">
+              <!-- <span
+                class="w-25px h-1px d-inline-block bg-base-color me-5px align-middle"></span> -->
+              <span
+                class="text-gradient-base-color fs-15 alt-font fw-700 ls-05px text-uppercase d-inline-block align-middle">Your Trusted Real Estate Advisor</span>
+            </div>
+            <h4 class="text-dark-gray alt-font fw-600 ls-minus-2px mb-20px">
+              Hassle-Free Real Estate Solutions
+            </h4>
+            <p class="w-90 md-w-100 mb-35px sm-mb-20px">
+              At PropAdvisor, we simplify real estate for developers, buyers,
+              and investors in Navi Mumbai. Since 2017, we’ve been delivering
+              seamless property solutions with transparency, market insights,
+              and expert advisory. From budget homes to luxury projects, our
+              team helps developers boost sales while guiding families and
+              investors to the right property decisions.
+            </p>
+            <a
+              href="about.html"
+              class="btn btn-large btn-dark-gray btn-switch-text btn-box-shadow border-1 left-icon me-10px sm-mb-15px sm-mt-15px">
+              <span>
+                <span><i class="feather icon-feather-arrow-right"></i></span>
+                <span class="btn-double-text" data-text="Know More">Know More
+                </span>
+              </span>
+            </a>
+            <a
+              href="services.html"
+              class="btn btn-large btn-transparent-light-gray border-1 btn-switch-text left-icon sm-mb-15px sm-mt-15px">
+              <span>
+                <span><i class="feather icon-feather-briefcase"></i></span>
+                <span class="btn-double-text" data-text="More Services">More Services</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about section -->
+  </template>
+
+  <!-- start experience section -->
+  <section class="overflow-hidden">
+    <div class="container">
+      <div class="row mb-6 sm-mb-50px">
+        <div
+          class="col-md-12 text-center text-md-start"
+          data-anime='{"opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+          <div
+            class="fs-80 xxl-fs-80 sm-fs-60 fw-600 text-dark-gray alt-font ls-minus-6px sm-ls-minus-2px"
+            data-bottom-top="transform: translate3d(-50px, 0px, 0px);"
+            data-top-bottom="transform: translate3d(50px, 0px, 0px);">
+            Experience In
+          </div>
+        </div>
+        <div class="col-12">
+          <div
+            class="row align-items-center align-items-lg-end"
+            data-bottom-top="transform: translate3d(-30px, 0px, 0px);"
+            data-top-bottom="transform: translate3d(30px, 0px, 0px);">
+            <div
+              class="col-lg-3 col-md-4 text-md-end text-center md-mt-30px md-mb-20px"
+              data-anime='{"opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+              <div class="position-relative">
+                <img
+                  src="img/home/home_exp_text_circle_1.png"
+                  class="animation-rotation"
+                  alt="" />
+                <div class="absolute-middle-center w-100 z-index-minus-1">
+                  <img src="img/home/home_exp_text_circle_2.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-5 col-md-6 text-center text-md-start"
+              data-anime='{"opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+              <div
+                class="fs-80 xxl-fs-80 sm-fs-60 fw-600 text-dark-gray alt-font ls-minus-6px sm-ls-minus-2px">
+                Real Estate
+              </div>
+            </div>
+            <div
+              class="col-lg-4 last-paragraph-no-margin md-mt-30px"
+              data-anime='{"opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+              <p
+                class="w-95 md-w-80 mx-auto text-center text-lg-start sm-w-100">
+                Shaping the real estate market with innovative ideas and
+                strong brand positioning.
+              </p>
             </div>
           </div>
         </div>
+      </div>
+      <div
+        class="row g-5 counter-style-04 custom-counter-grid"
+        data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
         <div
-          class="col-xl-5 col-lg-6 offset-xl-1 md-mt-20 sm-mt-0"
-          data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-          <div class="mb-10px">
-            <!-- <span
-                class="w-25px h-1px d-inline-block bg-base-color me-5px align-middle"></span> -->
-            <span
-              class="text-gradient-base-color fs-15 alt-font fw-700 ls-05px text-uppercase d-inline-block align-middle">Your Trusted Real Estate Advisor</span>
+          class="col-lg-3 col-md-6 feature-box text-start hover-box counter-cards p-20px">
+          <div class="feature-box-content">
+            <p class="text-dark-gray p-0 m-0 fw-500 w-90 fs-17 lh-28">
+              Active Clients we've have in 2025.
+            </p>
+            <h2
+              class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px mt-25 mb-0 ls-minus-1px"
+              data-text="+"
+              data-to="20">
+              <sup class="text-jade top-0"><i
+                  class="feather icon-feather-arrow-up icon-extra-medium"></i></sup>
+            </h2>
           </div>
-          <h4 class="text-dark-gray alt-font fw-600 ls-minus-2px mb-20px">
-            Hassle-Free Real Estate Solutions
-          </h4>
-          <p class="w-90 md-w-100 mb-35px sm-mb-20px">
-            At PropAdvisor, we simplify real estate for developers, buyers,
-            and investors in Navi Mumbai. Since 2017, we’ve been delivering
-            seamless property solutions with transparency, market insights,
-            and expert advisory. From budget homes to luxury projects, our
-            team helps developers boost sales while guiding families and
-            investors to the right property decisions.
-          </p>
-          <a
-            href="about.html"
-            class="btn btn-large btn-dark-gray btn-switch-text btn-box-shadow border-1 left-icon me-10px sm-mb-15px sm-mt-15px">
-            <span>
-              <span><i class="feather icon-feather-arrow-right"></i></span>
-              <span class="btn-double-text" data-text="Know More">Know More
-              </span>
-            </span>
-          </a>
-          <a
-            href="services.html"
-            class="btn btn-large btn-transparent-light-gray border-1 btn-switch-text left-icon sm-mb-15px sm-mt-15px">
-            <span>
-              <span><i class="feather icon-feather-briefcase"></i></span>
-              <span class="btn-double-text" data-text="More Services">More Services</span>
-            </span>
-          </a>
+        </div>
+        <div
+          class="col-lg-3 col-md-6 feature-box text-start hover-box counter-cards bg-theme-3 p-20px">
+          <div class="feature-box-content">
+            <p class="text-dark-gray p-0 m-0 fw-500 w-90 fs-17 lh-28">
+              Successfully finished projects .
+            </p>
+            <h2
+              class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px mt-25 mb-0 ls-minus-1px"
+              data-text="+"
+              data-to="80">
+              <sup class="text-jade top-0"><i
+                  class="feather icon-feather-arrow-up icon-extra-medium"></i></sup>
+            </h2>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-6 feature-box text-start hover-box counter-cards bg-theme-4 p-20px">
+          <div class="feature-box-content">
+            <p class="text-dark-gray p-0 m-0 fw-500 w-90 fs-17 lh-28">
+              Monthly Consultation on our real estate market.
+            </p>
+            <h2
+              class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px mt-25 mb-0 ls-minus-1px"
+              data-text="+"
+              data-to="150">
+              <sup class="text-jade top-0"><i
+                  class="feather icon-feather-arrow-up icon-extra-medium"></i></sup>
+            </h2>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-6 feature-box text-start hover-box counter-cards bg-theme-5 p-20px">
+          <div class="feature-box-content">
+            <p class="text-dark-gray p-0 m-0 fw-500 w-90 fs-17 lh-28">
+              Developers conversions growth increased.
+            </p>
+            <h2
+              class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px mt-25 mb-0 ls-minus-1px"
+              data-text="%"
+              data-to="72">
+              <sup class="text-jade top-0"><i
+                  class="feather icon-feather-arrow-up icon-extra-medium"></i></sup>
+            </h2>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- end about section -->
+  <!-- end experience section -->
 
   <!-- start journey section -->
   <section class="bg-light-red big-section" id="down-section">
@@ -408,12 +530,25 @@
         </div>
         <div
           class="col-xxl-2 offset-xxl-2 col-md-3 col-sm-4 text-center xs-mb-30px">
-          <span
-            class="text-dark-gray fw-600 fs-130 ls-minus-2px text-highlight">29<span class="bg-red start-0 w-50 h-10px bottom-10px"></span></span>
+          <!-- <span
+            class="text-dark-gray fw-600 fs-130 ls-minus-2px text-highlight">29<span class="bg-red start-0 w-50 h-10px bottom-10px"></span></span> -->
+          <!-- <span
+            class="text-dark-gray fw-600 fs-130 ls-minus-2px text-highlight">29<span class="bg-red start-0 w-50 h-10px bottom-10px"></span></span> -->
+
+          <h2
+            class="vertical-counter d-inline-flex text-dark-gray fs-130 fw-700 ls-minus-2px  mb-0 ls-minus-1px"
+            data-text="+"
+            data-to="32">
+            <!-- <sup class="text-jade top-0"><i
+                class="feather icon-feather-arrow-up icon-extra-medium"></i></sup> -->
+          </h2>
+          <span class="bg-red start-0 w-50 h-10px bottom-10px"></span>
+
         </div>
+
         <div
           class="col-lg-3 col-md-5 col-sm-6 last-paragraph-no-margin text-center text-sm-start">
-          <span class="text-dark-gray fs-20 fw-600 d-inline-block mb-5px">Projects completed</span>
+          <span class="text-dark-gray fs-20 fw-600 d-inline-block mb-5px">Projects Launched</span>
           <p class="w-90 lg-w-100">
             Lorem ipsum is simply dummy text the printing typesetting.
           </p>
@@ -598,7 +733,7 @@
                 </div>
                 <div class="feature-box-content">
                   <span
-                    class="d-inline-block fs-18 text-dark-gray fw-700 mb-5px">Faster Sales Cycles
+                    class="d-inline-block fs-22 text-uppercase text-dark-gray fw-700 mb-5px">FASTER SALES CYCLES
                   </span>
                   <p class="w-80 xl-w-90 lg-w-100">
                     Developers experience quicker inventory movement with
@@ -617,7 +752,7 @@
                 </div>
                 <div class="feature-box-content">
                   <span
-                    class="d-inline-block fs-18 text-dark-gray fw-700 mb-5px">Higher ROI on Marketing
+                    class="d-inline-block fs-22 text-uppercase text-dark-gray fw-700 mb-5px">Higher ROI on Marketing
                   </span>
                   <p class="w-80 xl-w-90 lg-w-100">
                     Smart targeting reduces cost per lead and maximizes every
@@ -636,7 +771,7 @@
                 </div>
                 <div class="feature-box-content">
                   <span
-                    class="d-inline-block fs-18 text-dark-gray fw-700 mb-5px">Verified and Trustworthy Options
+                    class="d-inline-block fs-22 text-uppercase text-dark-gray fw-700 mb-5px">Verified and Trustworthy Options
                   </span>
                   <p class="w-80 xl-w-90 lg-w-100">
                     Buyers get access to thoroughly verified properties,
@@ -663,7 +798,7 @@
                 </div>
                 <div class="feature-box-content">
                   <span
-                    class="d-inline-block fs-18 text-dark-gray fw-700 mb-5px">Smarter Decision Making
+                    class="d-inline-block fs-22 text-uppercase text-dark-gray fw-700 mb-5px">Smarter Decision Making
                   </span>
                   <p class="w-80 xl-w-90 lg-w-100">
                     Market insights, pricing guidance, and location research
@@ -682,7 +817,7 @@
                 </div>
                 <div class="feature-box-content">
                   <span
-                    class="d-inline-block fs-18 text-dark-gray fw-700 mb-5px">Seamless Buying Experience
+                    class="d-inline-block fs-22 text-uppercase text-dark-gray fw-700 mb-5px">Seamless Buying Experience
                   </span>
                   <p class="w-80 xl-w-90 lg-w-100">
                     From project discovery to documentation support, we
@@ -701,7 +836,7 @@
                 </div>
                 <div class="feature-box-content">
                   <span
-                    class="d-inline-block fs-18 text-dark-gray fw-700 mb-5px">Stronger Brand Presence
+                    class="d-inline-block fs-22 text-uppercase text-dark-gray fw-700 mb-5px">Stronger Brand Presence
                   </span>
                   <p class="w-80 xl-w-90 lg-w-100">
                     Developers build credibility and visibility, while buyers
@@ -736,126 +871,6 @@
     </div>
   </section>
   <!-- end  impact section -->
-
-  <!-- start experience section -->
-  <section class="overflow-hidden">
-    <div class="container">
-      <div class="row mb-6 sm-mb-50px">
-        <div
-          class="col-md-12 text-center text-md-start"
-          data-anime='{"opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-          <div
-            class="fs-80 xxl-fs-80 sm-fs-60 fw-600 text-dark-gray alt-font ls-minus-6px sm-ls-minus-2px"
-            data-bottom-top="transform: translate3d(-50px, 0px, 0px);"
-            data-top-bottom="transform: translate3d(50px, 0px, 0px);">
-            Experience In
-          </div>
-        </div>
-        <div class="col-12">
-          <div
-            class="row align-items-center align-items-lg-end"
-            data-bottom-top="transform: translate3d(-30px, 0px, 0px);"
-            data-top-bottom="transform: translate3d(30px, 0px, 0px);">
-            <div
-              class="col-lg-3 col-md-4 text-md-end text-center md-mt-30px md-mb-20px"
-              data-anime='{"opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-              <div class="position-relative">
-                <img
-                  src="img/home/home_exp_text_circle_1.png"
-                  class="animation-rotation"
-                  alt="" />
-                <div class="absolute-middle-center w-100 z-index-minus-1">
-                  <img src="img/home/home_exp_text_circle_2.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-lg-5 col-md-6 text-center text-md-start"
-              data-anime='{"opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-              <div
-                class="fs-80 xxl-fs-80 sm-fs-60 fw-600 text-dark-gray alt-font ls-minus-6px sm-ls-minus-2px">
-                Real Estate
-              </div>
-            </div>
-            <div
-              class="col-lg-4 last-paragraph-no-margin md-mt-30px"
-              data-anime='{"opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-              <p
-                class="w-95 md-w-80 mx-auto text-center text-lg-start sm-w-100">
-                Shaping the real estate market with innovative ideas and
-                strong brand positioning.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="row g-5 counter-style-04 custom-counter-grid"
-        data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-        <div
-          class="col-lg-3 col-md-6 feature-box text-start hover-box counter-cards p-20px">
-          <div class="feature-box-content">
-            <p class="text-dark-gray p-0 m-0 fw-500 w-90 fs-17 lh-28">
-              Active Clients we've have in 2025.
-            </p>
-            <h2
-              class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px mt-25 mb-0 ls-minus-1px"
-              data-text="+"
-              data-to="20">
-              <sup class="text-jade top-0"><i
-                  class="feather icon-feather-arrow-up icon-extra-medium"></i></sup>
-            </h2>
-          </div>
-        </div>
-        <div
-          class="col-lg-3 col-md-6 feature-box text-start hover-box counter-cards bg-theme-3 p-20px">
-          <div class="feature-box-content">
-            <p class="text-dark-gray p-0 m-0 fw-500 w-90 fs-17 lh-28">
-              Successfully finished projects .
-            </p>
-            <h2
-              class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px mt-25 mb-0 ls-minus-1px"
-              data-text="+"
-              data-to="80">
-              <sup class="text-jade top-0"><i
-                  class="feather icon-feather-arrow-up icon-extra-medium"></i></sup>
-            </h2>
-          </div>
-        </div>
-        <div
-          class="col-lg-3 col-md-6 feature-box text-start hover-box counter-cards bg-theme-4 p-20px">
-          <div class="feature-box-content">
-            <p class="text-dark-gray p-0 m-0 fw-500 w-90 fs-17 lh-28">
-              Monthly Consultation on our real estate market.
-            </p>
-            <h2
-              class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px mt-25 mb-0 ls-minus-1px"
-              data-text="+"
-              data-to="150">
-              <sup class="text-jade top-0"><i
-                  class="feather icon-feather-arrow-up icon-extra-medium"></i></sup>
-            </h2>
-          </div>
-        </div>
-        <div
-          class="col-lg-3 col-md-6 feature-box text-start hover-box counter-cards bg-theme-5 p-20px">
-          <div class="feature-box-content">
-            <p class="text-dark-gray p-0 m-0 fw-500 w-90 fs-17 lh-28">
-              Developers conversions growth increased.
-            </p>
-            <h2
-              class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px mt-25 mb-0 ls-minus-1px"
-              data-text="%"
-              data-to="72">
-              <sup class="text-jade top-0"><i
-                  class="feather icon-feather-arrow-up icon-extra-medium"></i></sup>
-            </h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end experience section -->
 
   <!-- start case studies section -->
   <section class="stack-box py-0 z-index-99">
