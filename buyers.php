@@ -38,7 +38,7 @@
   <section
     class="p-0 top-space-margin full-screen md-h-600px sm-h-500px section-dark"
     data-parallax-background-ratio="0.8"
-    style="background-image: url(&quot;img/buyers/buyers_hero_img.jpg&quot;)">
+    style="background-image: url('img/buyers/buyers_hero_img_2.jpg')">
     <div class="container h-100">
       <div class="row align-items-center h-100">
         <div

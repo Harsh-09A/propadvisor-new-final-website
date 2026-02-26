@@ -262,10 +262,11 @@
                 <div
                   class="front overflow-hidden h-250px md-h-250px border-radius-4px overflow-hidden"
                   style="
-                      background-image: url('img/services/developers_service/Sales-Management-And-Strategy.jpg');
+                      background-image: url('img/services/developers_service/Feasibility-Report.jpg');
                     ">
                   <i
                     class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                  <!-- <h5 class="text-white mt-2 text-center">Feasibility Report</h5> -->
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
                   <div class="box-overlay bg-black"></div>
@@ -613,7 +614,7 @@
                 <div
                   class="front overflow-hidden h-250px md-h-250px border-radius-4px overflow-hidden"
                   style="
-                      background-image: url('img/services/buyers_service/Zero-Hidden-Costs.jpg');
+                      background-image: url('img/services/buyers_service/Zero-Brokerage.jpg');
                     ">
                   <i
                     class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
