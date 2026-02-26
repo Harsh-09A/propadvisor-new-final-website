@@ -145,6 +145,7 @@
     </div>
   </section>
   <!-- end section -->
+
   <!-- start section -->
   <section
     style="background-image: url(img/common/section_background_400_03.jpg)"
@@ -174,6 +175,7 @@
     </div>
   </section>
   <!-- end section -->
+
   <!-- start section -->
   <section class="pt-30px">
     <div class="container">
@@ -422,6 +424,7 @@
     </div>
   </section>
   <!-- end section -->
+
   <!-- start section -->
   <section class="pt-30px">
     <div class="container">
