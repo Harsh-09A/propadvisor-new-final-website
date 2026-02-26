@@ -188,3 +188,9 @@ footer a:hover {
     height: 100vh !important;
   }
 }
+
+
+
+ #developer-benefits .icon-with-text-style-10 .feature-box .feature-box-icon-rounded {
+ background: var(--base-color) !important;
+}

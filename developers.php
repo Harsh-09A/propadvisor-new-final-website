@@ -23,8 +23,8 @@
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="css/ebook.css" />
   <link rel="stylesheet" href="css/business.css" />
-  <link rel="stylesheet" href="css/my-styles.css" />
   <link rel="stylesheet" href="css/common-theme.css" />
+  <link rel="stylesheet" href="css/my-styles.css" />
 </head>
 
 <body
@@ -502,8 +502,8 @@
         </div>
       </div>
 
-      <div
-        class="row row-cols-1 row-cols-lg-4 row-cols-md-2 justify-content-center mb-5 md-mb-7"
+      <div id="developer-benefits"
+        class="row row-cols-2 row-cols-lg-4 row-cols-md-2 justify-content-center mb-5 md-mb-7"
         data-anime='{ "el": "childs", "rotateZ": [5, 0], "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
         <!-- start features box item -->
         <div
@@ -519,10 +519,10 @@
             </div>
             <div class="feature-box-content last-paragraph-no-margin">
               <span class="d-inline-block fw-500 text-dark-gray mb-5px fs-18">Local Insight, Global Strategy</span>
-              <p>
+              <!-- <p>
                 We blend Mumbai's real estate dynamics with global best
                 practices.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -541,7 +541,7 @@
             </div>
             <div class="feature-box-content last-paragraph-no-margin">
               <span class="d-inline-block fw-500 text-dark-gray mb-5px fs-18">End-to-End Partnership</span>
-              <p>From launch to late-stage consultation—we stand by you.</p>
+              <!-- <p>From launch to late-stage consultation—we stand by you.</p> -->
             </div>
           </div>
         </div>
@@ -560,9 +560,9 @@
             </div>
             <div class="feature-box-content last-paragraph-no-margin">
               <span class="d-inline-block fw-500 text-dark-gray mb-5px fs-18">Trusted Track Record</span>
-              <p>
+              <!-- <p>
                 Expert handling of projects across price points and segments.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -581,10 +581,10 @@
             </div>
             <div class="feature-box-content last-paragraph-no-margin">
               <span class="d-inline-block fw-500 text-dark-gray mb-5px fs-18">Market Pulse</span>
-              <p>
+              <!-- <p>
                 Real-time insights and foresight on emerging demands and
                 areas.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -603,10 +603,10 @@
             </div>
             <div class="feature-box-content last-paragraph-no-margin">
               <span class="d-inline-block fw-500 text-dark-gray mb-5px fs-18">Tech & Sustainability Focus</span>
-              <p>
+              <!-- <p>
                 Forward-looking projects attract premium buyers and stand the
                 test of time.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -626,10 +626,10 @@
             <div class="feature-box-content last-paragraph-no-margin">
               <span class="d-inline-block fw-500 text-dark-gray mb-5px fs-18">Improved Cash Flow
               </span>
-              <p>
+              <!-- <p>
                 Ensuring steady revenue growth through efficient financial
                 management.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -650,10 +650,10 @@
               <span class="d-inline-block fw-500 text-dark-gray mb-5px fs-18">
                 Professional Team
               </span>
-              <p>
+              <!-- <p>
                 Skilled experts delivering reliable, high-quality support
                 every time.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -674,10 +674,10 @@
               <span class="d-inline-block fw-500 text-dark-gray mb-5px fs-18">
                 Strong Channel Partner Network
               </span>
-              <p>
+              <!-- <p>
                 Expanding your reach with trusted, performance-driven
                 partnerships.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -698,10 +698,10 @@
               <span class="d-inline-block fw-500 text-dark-gray mb-5px fs-18">
                 Hassle Free Collections
               </span>
-              <p>
+              <!-- <p>
                 Timely, smooth payment processes without any operational
                 delays.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -722,10 +722,10 @@
               <span class="d-inline-block fw-500 text-dark-gray mb-5px fs-18">
                 High ROI
               </span>
-              <p>
+              <!-- <p>
                 Maximizing returns through strategic planning and optimized
                 execution.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
