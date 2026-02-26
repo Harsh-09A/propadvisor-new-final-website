@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html class="no-js" lang="en">
   <head>
     <title>PropAdvisor - We Bring You Home</title>
@@ -7,7 +7,7 @@
     <meta name="author" content="PropAdvisor" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <meta name="description" content="We Bring You Home" />
-    <!-- <base href="/" /> -->
+    <base href="/" />
     <!-- favicon icon -->
     <link rel="shortcut icon" href="img/icons/favicon.png" />
     <link rel="apple-touch-icon" href="img/icons/favicon.png" />
@@ -29,137 +29,8 @@
     data-mobile-nav-trigger-alignment="right"
     data-mobile-nav-style="modern"
     data-mobile-nav-bg-color="#000">
-    <!-- start header -->
-    <header>
-      <!-- start navigation -->
-      <nav
-        class="navbar navbar-expand-lg header-light bg-white header-reverse"
-        data-header-hover="light">
-        <div class="container-fluid">
-          <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
-            <a class="navbar-brand" href="index.html">
-              <img
-                src="img/logos/PropAdvisor_Logo_black.png"
-                data-at2x="img/logos/PropAdvisor_Logo_black.png"
-                alt=""
-                class="default-logo" />
-              <img
-                src="img/logos/PropAdvisor_Logo_black.png"
-                data-at2x="img/logos/PropAdvisor_Logo_black.png"
-                alt=""
-                class="alt-logo" />
-              <img
-                src="img/logos/PropAdvisor_Logo_black.png"
-                data-at2x="img/logos/PropAdvisor_Logo_black.png"
-                alt=""
-                class="mobile-logo" />
-            </a>
-          </div>
-          <div class="col-auto menu-order position-static">
-            <button
-              class="navbar-toggler float-start"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-              <span class="navbar-toggler-line"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav alt-font">
-                <li class="nav-item">
-                  <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item dropdown dropdown-with-icon-style02">
-                  <a href="about.html" class="nav-link">About</a>
-                  <i
-                    class="fa-solid fa-angle-down"
-                    id="navbarDropdownMenuLink"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"></i>
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink">
-                    <li>
-                      <a href="our-life.html"
-                        ><i class="bi bi-briefcase"></i>Life At PropAdvisor
-                      </a>
-                    </li>
-                    <li>
-                      <a href="case-studies.html"
-                        ><i class="bi bi-clipboard-data"></i>Case Studies
-                      </a>
-                    </li>
-                    <li>
-                      <a href="blog.html"><i class="bi bi-peace"></i>Blogs</a>
-                    </li>
-                    <!-- <li>
-                      <a href="demo-business-services-details.html"
-                        ><i class="bi bi-bar-chart-line"></i>Market research</a
-                      >
-                    </li>
-                    <li>
-                      <a href="demo-business-services-details.html"
-                        ><i class="bi bi-send-check"></i>Business campaign</a
-                      >
-                    </li>
-                    <li>
-                      <a href="demo-business-services-details.html"
-                        ><i class="bi bi-globe2"></i>Digital solutions</a
-                      >
-                    </li> -->
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a href="services.html" class="nav-link">Services </a>
-                </li>
 
-                <li class="nav-item">
-                  <a href="developers.html" class="nav-link">Developers</a>
-                </li>
-                <li class="nav-item">
-                  <a href="buyers.html" class="nav-link">Buyers</a>
-                </li>
-                <!-- <li class="nav-item">
-                  <a href="projects.html" class="nav-link">Projects</a>
-                </li> -->
-                <li class="nav-item">
-                  <a href="contact.html" class="nav-link">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div
-            class="col-auto col-xxl-3 col-lg-2 text-end pe-5 d-none d-sm-flex">
-            <div class="header-icon">
-              <!-- <div class="d-none d-xxl-inline-block me-25px xxl-me-10px">
-                <div class="alt-font fs-15 xl-fs-13 widget-text fw-500">
-                  <span
-                    class="w-35px h-35px bg-base-color d-inline-block lh-36 me-10px border-radius-100px"
-                    ><i class="feather icon-feather-phone me-10px"></i></span
-                  ><a href="tel:1800222000" class="widget-text text-white-hover"
-                    >1 800 222 000</a
-                  >
-                </div>
-              </div> -->
-              <!-- <div class="header-button">
-                <a
-                  href=""
-                  class="btn btn-very-small btn-transparent-white-light btn-rounded"
-                  >Get a quote</a
-                >
-              </div> -->
-            </div>
-          </div>
-        </div>
-      </nav>
-      <!-- end navigation -->
-    </header>
-    <!-- end header -->
+    <?php include_once "./includes/header.php" ?>
 
     <!-- start banner slider -->
     <section class="p-0 top-space-margin position-relative overflow-hidden">
@@ -175,7 +46,7 @@
                 <div
                   class="col-xxl-12 col-lg-12 text-white bg-very-light-green cover-background ps-6 xxl-ps-4 sm-ps-15px order-2 order-lg-1 md-pt-70px md-pb-70px xs-pb-70px home_slide_1"
                   style="
-                    background-image: url('img/home/home_desktop_slider_1.jpg');
+                    background-image: url(&quot;img/home/home_desktop_slider_1.jpg&quot;);
                   ">
                   <div
                     class="text-dark d-flex justify-content-center align-items-lg-start align-items-center text-lg-start text-center flex-column h-100 home-slider-content"
@@ -245,7 +116,7 @@
                 <div
                   class="col-xxl-12 col-lg-12 text-white bg-very-light-green cover-background ps-6 xxl-ps-4 sm-ps-15px order-2 order-lg-1 md-pt-70px md-pb-70px xs-pb-70px home_slide_2"
                   style="
-                    background-image: url('img/home/home_desktop_slider_2.jpg');
+                    background-image: url(&quot;img/home/home_desktop_slider_2.jpg&quot;);
                   ">
                   <div
                     class="text-dark d-flex justify-content-center align-items-lg-start align-items-center text-lg-start text-center flex-column h-100 home-slider-content"
@@ -315,7 +186,7 @@
                 <div
                   class="col-xxl-12 col-lg-12 text-white bg-very-light-green cover-background ps-6 xxl-ps-4 sm-ps-15px order-2 order-lg-1 md-pt-70px md-pb-70px xs-pb-70px home_slide_3"
                   style="
-                    background-image: url('img/home/home_desktop_slider_3.jpg');
+                    background-image: url(&quot;img/home/home_desktop_slider_3.jpg&quot;);
                   ">
                   <div
                     class="text-dark d-flex justify-content-center align-items-lg-start align-items-center text-lg-start text-center flex-column h-100 home-slider-content"
@@ -386,7 +257,7 @@
                 <div
                   class="col-xxl-12 col-lg-12 text-white bg-very-light-green cover-background ps-6 xxl-ps-4 sm-ps-15px order-2 order-lg-1 md-pt-70px md-pb-70px xs-pb-70px home_slide_4"
                   style="
-                    background-image: url('img/home/home_desktop_slider_4.jpg');
+                    background-image: url(&quot;img/home/home_desktop_slider_4.jpg&quot;);
                   ">
                   <div
                     class="text-dark d-flex justify-content-center align-items-lg-start align-items-center text-lg-start text-center flex-column h-100 home-slider-content"
@@ -555,24 +426,6 @@
     </section>
     <!-- end about section -->
 
-    <!-- start journey heading section -->
-    <!-- <section class="pt-50px">
-      <div class="container text-center">
-        <div class="mb-10px">
-          <! --- <span
-            class="w-25px h-1px d-inline-block bg-base-color me-5px align-middle"></span> ->
-          <span
-            class="text-gradient-base-color fs-15 alt-font fw-700 ls-05px text-uppercase d-inline-block align-middle"
-            >Your Property Partner</span
-          >
-        </div>
-        <h4 class="text-dark-gray alt-font fw-600 ls-minus-2px mb-20px">
-          Our Journey
-        </h4>
-      </div>
-    </section> -->
-    <!-- end journey heading section -->
-
     <!-- start journey section -->
     <section class="bg-light-red big-section" id="down-section">
       <div class="container-fluid px-5">
@@ -740,11 +593,11 @@
               <!-- start client item -->
               <div class="swiper-slide">
                 <div
-                  class="fs-130 md-fs-90 sm-fs-70 alt-font text-dark-gray fw-600 ls-minus-6px word-break-normal">
+                  class="fs-90 md-fs-90 sm-fs-70 alt-font text-dark-gray fw-600 ls-minus-6px word-break-normal">
                   Empowering
                   <span class="text-gradient-base-color">Buyers</span> .
                   Partnering with
-                  <span class="text-gradient-base-color">Developers</span>.
+                  <span class="text-gradient-base-color">Developers </span>.
                   <!-- <span class="ms-20px">-</span> -->
                 </div>
               </div>
@@ -752,7 +605,7 @@
               <!-- start client item -->
               <div class="swiper-slide">
                 <div
-                  class="fs-130 md-fs-90 sm-fs-70 alt-font text-dark-gray fw-600 word-break-normal">
+                  class="fs-90 md-fs-90 sm-fs-70 alt-font text-dark-gray fw-600 word-break-normal">
                   Transforming
                   <span class="text-gradient-base-color">Real Estate</span>
                   Across Navi Mumbai, Mumbai & Thane.
@@ -768,7 +621,7 @@
     <!-- end marquee text section -->
 
     <!-- start impact section -->
-    <section>
+    <section class="pt-0">
       <div class="container impact_section">
         <div class="pb-20px">
           <div class="mb-10px">
@@ -1075,7 +928,7 @@
     </section>
     <!-- end experience section -->
 
-    <!-- start featured projects section -->
+    <!-- start case studies section -->
     <section class="stack-box py-0 z-index-99">
       <div class="stack-box-contain">
         <!-- start stack item -->
@@ -1281,7 +1134,7 @@
       <div
         class="background-position-center-top background-no-repeat position-absolute h-100 w-100 left-0px top-0px pb-15px"
         style="
-          background-image: url('img/home/home_testimonial_bg_03.png');
+          background-image: url(&quot;img/home/home_testimonial_bg_03.png&quot;);
         "></div>
       <div class="container position-relative">
         <div
@@ -1849,7 +1702,9 @@
     <!-- start cta section -->
     <section
       data-parallax-background-ratio="0.5"
-      style="background-image: url('img/cta/cta_bg_sky_scapper_2.jpg')">
+      style="
+        background-image: url('img/cta/cta_bg_sky_scapper_2.jpg');
+      ">
       <div class="opacity-medium bg-slate-blue"></div>
       <div class="container position-relative">
         <div class="row align-items-center justify-content-center">
@@ -1882,156 +1737,15 @@
     </section>
     <!-- end cta section -->
 
-    <!-- start footer -->
-    <footer class="bg-black pb-4 sm-pb-50px" style="background-image: url()">
-      <div class="container">
-        <div class="row mb-6">
-          <div class="col-lg-5 col-md-6 sm-mb-30px order-2 order-md-1">
-            <h3
-              class="text-white fw-500 alt-font mb-50px ls-minus-1px sm-mb-30px">
-              Let's make something great work together.
-            </h3>
-            <div class="row">
-              <div class="col-lg-5 col-6 footer_text-white">
-                <span
-                  class="alt-font fs-14 text-uppercase d-block text-base-color ls-1px lh-24"
-                  >Call us</span
-                >
-                <a href="tel:+91 90299 29777">+91 90299 29777</a>
-              </div>
-              <div class="col-lg-6 col-6 footer_text-white">
-                <span
-                  class="alt-font fs-14 text-uppercase d-block text-base-color ls-1px lh-24"
-                  >Email Us</span
-                >
-                <a href="mailto:info@propadvisor.co.in"
-                  >info@propadvisor.co.in</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2 offset-lg-1 col-6 order-3 order-md-2">
-            <span
-              class="alt-font fs-14 text-uppercase mb-5px d-block text-base-color ls-1px"
-              >Case study</span
-            >
-            <ul class="footer_text-white">
-              <li><a href="">lorem 1 </a></li>
-              <li><a href="">lorem 2</a></li>
-              <li><a href="">lorem 3</a></li>
-              <li><a href="">lorem 4</a></li>
-              <li><a href="">lorem 5</a></li>
-            </ul>
-          </div>
-          <div class="col-md-2 col-6 order-3 order-md-3">
-            <span
-              class="alt-font fs-14 text-uppercase mb-5px d-block text-base-color ls-1px"
-              >information</span
-            >
-            <ul class="footer_text-white">
-              <li>
-                <a href="" target="_blank">Blogs</a>
-              </li>
-              <li>
-                <a href="" target="_blank">Career</a>
-              </li>
-              <li>
-                <a href="" target="_blank">Privacy Policy </a>
-              </li>
-              <li>
-                <a href="" target="_blank">Disclaimer </a>
-              </li>
-              <li>
-                <a href="" target="_blank">Terms & Condition</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2 order-1 order-md-4 sm-mb-30px">
-            <div
-              class="col-lg-12 col-md-12 col-sm-12 elements-social social-icon-style-10 text-white">
-              <span
-                class="alt-font fs-14 text-uppercase mb-5px d-block text-base-color ls-1px"
-                >Follow Us</span
-              >
-              <ul class="">
-                <li class="me-30px">
-                  <a
-                    class="facebook"
-                    href="https://www.facebook.com/"
-                    target="_blank">
-                    <i class="fa-brands fa-facebook-f me-10px"></i>
-                    <span class="fw-500">Facebook</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="instagram"
-                    href="http://www.instagram.com"
-                    target="_blank">
-                    <i class="fa-brands fa-instagram me-10px"></i>
-                    <span class="fw-500">Instagram</span>
-                  </a>
-                </li>
-
-                <li class="me-30px">
-                  <a
-                    class="youtube"
-                    href="http://www.youtube.com"
-                    target="_blank">
-                    <i class="fa-brands fa-youtube me-10px"></i>
-                    <span class="fw-500">Youtube</span>
-                  </a>
-                </li>
-                <li class="me-30px">
-                  <a
-                    class="youtube"
-                    href="http://www.youtube.com"
-                    target="_blank">
-                    <i class="fa-brands fa-linkedin me-10px"></i>
-                    <span class="fw-500">Linkedin</span>
-                  </a>
-                </li>
-                <li class="me-30px">
-                  <a class="twitter" href="http://www.x.com" target="_blank">
-                    <i class="fa-brands fa-x-twitter me-10px"></i>
-                    <span class="fw-500">X.com</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-7 last-paragraph-no-margin">
-            <p class="fs-13 lh-22 w-95 sm-w-100">
-              This site is protected by reCAPTCHA and the Google privacy policy
-              and terms of service apply. You must not use this website if you
-              disagree with any of these website standard terms and conditions.
-            </p>
-          </div>
-          <div class="col-md-5 text-md-end sm-mt-15px last-paragraph-no-margin">
-            <p class="fs-13 lh-22">
-              &copy; 2025 Powered by
-              <a
-                href="https://letsdigin.in/"
-                target="_blank"
-                class="text-decoration-line-bottom text-base-color"
-                >DIGIN Media</a
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- end footer -->
+    <?php include_once "./includes/footer.php" ?>
 
     <!-- start scroll progress -->
-    <div class="scroll-progress d-none d-xxl-block">
+    <!-- <div class="scroll-progress d-none d-xxl-block">
       <a href="#" class="scroll-top" aria-label="scroll">
         <span class="scroll-text">Scroll</span
         ><span class="scroll-line"><span class="scroll-point"></span></span>
       </a>
-    </div>
+    </div> -->
     <!-- end scroll progress -->
 
     <!-- javascript libraries -->
