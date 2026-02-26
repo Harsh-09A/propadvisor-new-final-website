@@ -1,0 +1,88 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@100;300;400;500;600;700;800&display=swap");
+
+/* variable */
+:root {
+  --base-color: #deb269;
+  --medium-gray: #7b7a7a;
+  --dark-gray: #262b35;
+  --charcoal-blue: #232323;
+  --primary-font: "Be Vietnam", sans-serif;
+  --alt-font: "Sora", sans-serif;
+  --medium-gray: #868d98;
+}
+body {
+  font-size: 16px;
+  line-height: 32px;
+}
+a:hover {
+  color: var(--dark-gray);
+}
+h1,
+.h1 {
+  line-height: 4rem;
+}
+h3,
+.h3 {
+  line-height: 2.813rem;
+}
+h4 {
+  line-height: 2.6rem;
+}
+
+/* header */
+header .navbar-brand img {
+  /* max-height: 26px; */
+  max-height: 60px;
+}
+.navbar .navbar-nav .nav-link {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.sticky .header-transparent .header-button .btn {
+  color: var(--dark-gray);
+  border-color: var(--dark-gray);
+}
+.sticky .header-transparent .header-button .btn:hover {
+  border-color: var(--dark-gray);
+  color: var(--white);
+  background: var(--dark-gray);
+}
+header.sticky.sticky-active [data-header-hover="light"] .widget-text i {
+  color: var(--white);
+}
+
+header .header-button .btn.btn-switch-text.btn-medium > span {
+  padding: 12px 22px;
+}
+
+.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--dark-gray) !important;
+}
+.navbar
+  .navbar-nav
+  .dropdown.dropdown-with-icon-style02
+  .dropdown-menu
+  li
+  a:hover {
+  background-color: #f6f4f3;
+}
+.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a i {
+  font-size: 30px;
+  width: 35px;
+}
+
+/*margin*/
+.ms-100px {
+  margin-left: 100px;
+}
+.ms-80px {
+  margin-left: 80px;
+}
+.mb-minus-50px {
+  margin-bottom: -50px;
+}
