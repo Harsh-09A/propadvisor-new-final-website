@@ -280,231 +280,234 @@
   </section>
   <!-- end section -->
 
-  <!-- start section -->
-  <section class="bg-theme-5 pb-0" id="services">
-    <div class="container">
-      <div class="row mb-8 sm-mb-10">
-        <div class="col-12 tab-style-08">
-          <div class="tab-content">
-            <!-- start tab content -->
-            <div class="tab-pane fade in active show" id="tab_eight1">
-              <div
-                class="row align-items-center justify-content-center g-lg-0">
+  <template class="d-none">
+
+    <!-- start section -->
+    <section class="bg-theme-5 pb-0" id="services">
+      <div class="container">
+        <div class="row mb-8 sm-mb-10">
+          <div class="col-12 tab-style-08">
+            <div class="tab-content">
+              <!-- start tab content -->
+              <div class="tab-pane fade in active show" id="tab_eight1">
                 <div
-                  class="col-md-6 sm-mb-30px position-relative overflow-hidden"
-                  data-anime='{ "effect": "slide", "color": "#005153", "direction":"lr", "easing": "easeOutQuad", "delay":50}'>
-                  <img
-                    src="img/buyers/buyers_600x505.jpg"
-                    alt=""
-                    class="w-100 border-radius-6px" />
+                  class="row align-items-center justify-content-center g-lg-0">
                   <div
-                    class="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-35px box-shadow-large d-flex align-items-center"
-                    data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 800, "staggervalue": 500, "easing": "easeOutQuad" }'>
-                    <h2
-                      class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px md-ls-minus-1px mb-0 text-nowrap border-end border-1 border-color-transparent-dark-very-light pe-20px me-20px"
-                      data-to="29"></h2>
-                    <span
-                      class="text-dark-gray ls-minus-05px d-inline-block lh-22">Project completed</span>
-                  </div>
-                </div>
-                <div
-                  class="col-xl-4 col-lg-5 offset-lg-1 col-md-6 text-center text-md-start"
-                  data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                  <div class="mb-20px">
+                    class="col-md-6 sm-mb-30px position-relative overflow-hidden"
+                    data-anime='{ "effect": "slide", "color": "#005153", "direction":"lr", "easing": "easeOutQuad", "delay":50}'>
+                    <img
+                      src="img/buyers/buyers_600x505.jpg"
+                      alt=""
+                      class="w-100 border-radius-6px" />
                     <div
-                      class="separator-line-1px w-50px bg-base-color d-inline-block align-middle me-10px opacity-2"></div>
-                    <span
-                      class="d-inline-block text-dark-gray align-middle fw-500 fs-20 ls-minus-05px">Strategic planning</span>
+                      class="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-35px box-shadow-large d-flex align-items-center"
+                      data-anime='{ "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 800, "staggervalue": 500, "easing": "easeOutQuad" }'>
+                      <h2
+                        class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px md-ls-minus-1px mb-0 text-nowrap border-end border-1 border-color-transparent-dark-very-light pe-20px me-20px"
+                        data-to="29"></h2>
+                      <span
+                        class="text-dark-gray ls-minus-05px d-inline-block lh-22">Project completed</span>
+                    </div>
                   </div>
-                  <h4 class="fw-700 text-dark-gray ls-minus-1px md-mb-20px">
-                    Benifits To Buyers
-                  </h4>
-                  <p class="mb-35px md-mb-25px">
-                    We provide simplified accounting solutions and qualitative
-                    business process services to the customers which helps
-                    streamline your business and give your company a
-                    competitive.
-                  </p>
-                  <a
-                    href="services.html"
-                    class="btn btn-large btn-rounded with-rounded btn-white btn-box-shadow fw-600">Learn more<span class="bg-base-color text-white"><i
-                        class="bi bi-arrow-right-short icon-extra-medium"></i></span></a>
+                  <div
+                    class="col-xl-4 col-lg-5 offset-lg-1 col-md-6 text-center text-md-start"
+                    data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+                    <div class="mb-20px">
+                      <div
+                        class="separator-line-1px w-50px bg-base-color d-inline-block align-middle me-10px opacity-2"></div>
+                      <span
+                        class="d-inline-block text-dark-gray align-middle fw-500 fs-20 ls-minus-05px">Strategic planning</span>
+                    </div>
+                    <h4 class="fw-700 text-dark-gray ls-minus-1px md-mb-20px">
+                      Benifits To Buyers
+                    </h4>
+                    <p class="mb-35px md-mb-25px">
+                      We provide simplified accounting solutions and qualitative
+                      business process services to the customers which helps
+                      streamline your business and give your company a
+                      competitive.
+                    </p>
+                    <a
+                      href="services.html"
+                      class="btn btn-large btn-rounded with-rounded btn-white btn-box-shadow fw-600">Learn more<span class="bg-base-color text-white"><i
+                          class="bi bi-arrow-right-short icon-extra-medium"></i></span></a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- end tab content -->
-            <!-- start tab content -->
-            <div class="tab-pane fade in" id="tab_eight2">
-              <div
-                class="row align-items-center justify-content-center g-lg-0">
+              <!-- end tab content -->
+              <!-- start tab content -->
+              <div class="tab-pane fade in" id="tab_eight2">
                 <div
-                  class="col-md-6 sm-mb-30px position-relative overflow-hidden">
-                  <img
-                    src="img/buyers/buyers_600x505.jpg"
-                    alt=""
-                    class="w-100 border-radius-4px" />
+                  class="row align-items-center justify-content-center g-lg-0">
                   <div
-                    class="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-35px box-shadow-large d-flex align-items-center">
-                    <h2
-                      class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px md-ls-minus-1px mb-0 text-nowrap border-end border-1 border-color-transparent-dark-very-light pe-20px me-20px"
-                      data-to="80"></h2>
-                    <span
-                      class="text-dark-gray ls-minus-05px d-inline-block lh-22">Project completed</span>
-                  </div>
-                </div>
-                <div
-                  class="col-xl-4 col-lg-5 offset-lg-1 col-md-6 text-center text-md-start">
-                  <div class="mb-20px">
+                    class="col-md-6 sm-mb-30px position-relative overflow-hidden">
+                    <img
+                      src="img/buyers/buyers_600x505.jpg"
+                      alt=""
+                      class="w-100 border-radius-4px" />
                     <div
-                      class="separator-line-1px w-50px bg-base-color d-inline-block align-middle me-10px opacity-2"></div>
-                    <span
-                      class="d-inline-block text-dark-gray align-middle fw-500 fs-20 ls-minus-05px">Audit assurance</span>
+                      class="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-35px box-shadow-large d-flex align-items-center">
+                      <h2
+                        class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px md-ls-minus-1px mb-0 text-nowrap border-end border-1 border-color-transparent-dark-very-light pe-20px me-20px"
+                        data-to="80"></h2>
+                      <span
+                        class="text-dark-gray ls-minus-05px d-inline-block lh-22">Project completed</span>
+                    </div>
                   </div>
-                  <h4 class="fw-700 text-dark-gray ls-minus-1px md-mb-20px">
-                    An excellent audit service for company.
-                  </h4>
-                  <p class="mb-35px md-mb-25px">
-                    We provide simplified accounting solutions and qualitative
-                    business process services to the customers which helps
-                    streamline your business and give your company a
-                    competitive.
-                  </p>
-                  <a
-                    href="services.html"
-                    class="btn btn-large btn-rounded with-rounded btn-white btn-box-shadow fw-600">Learn more<span class="bg-base-color text-white"><i
-                        class="bi bi-arrow-right-short icon-extra-medium"></i></span></a>
+                  <div
+                    class="col-xl-4 col-lg-5 offset-lg-1 col-md-6 text-center text-md-start">
+                    <div class="mb-20px">
+                      <div
+                        class="separator-line-1px w-50px bg-base-color d-inline-block align-middle me-10px opacity-2"></div>
+                      <span
+                        class="d-inline-block text-dark-gray align-middle fw-500 fs-20 ls-minus-05px">Audit assurance</span>
+                    </div>
+                    <h4 class="fw-700 text-dark-gray ls-minus-1px md-mb-20px">
+                      An excellent audit service for company.
+                    </h4>
+                    <p class="mb-35px md-mb-25px">
+                      We provide simplified accounting solutions and qualitative
+                      business process services to the customers which helps
+                      streamline your business and give your company a
+                      competitive.
+                    </p>
+                    <a
+                      href="services.html"
+                      class="btn btn-large btn-rounded with-rounded btn-white btn-box-shadow fw-600">Learn more<span class="bg-base-color text-white"><i
+                          class="bi bi-arrow-right-short icon-extra-medium"></i></span></a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- end tab content -->
-            <!-- start tab content -->
-            <div class="tab-pane fade in" id="tab_eight3">
-              <div
-                class="row align-items-center justify-content-center g-lg-0">
+              <!-- end tab content -->
+              <!-- start tab content -->
+              <div class="tab-pane fade in" id="tab_eight3">
                 <div
-                  class="col-md-6 sm-mb-30px position-relative overflow-hidden">
-                  <img
-                    src="img/buyers/buyers_600x505.jpg"
-                    alt=""
-                    class="w-100 border-radius-4px" />
+                  class="row align-items-center justify-content-center g-lg-0">
                   <div
-                    class="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-35px box-shadow-large d-flex align-items-center">
-                    <h2
-                      class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px md-ls-minus-1px mb-0 text-nowrap border-end border-1 border-color-transparent-dark-very-light pe-20px me-20px"
-                      data-to="85"></h2>
-                    <span
-                      class="text-dark-gray ls-minus-05px d-inline-block lh-22">Project completed</span>
-                  </div>
-                </div>
-                <div
-                  class="col-xl-4 col-lg-5 offset-lg-1 col-md-6 text-center text-md-start">
-                  <div class="mb-20px">
+                    class="col-md-6 sm-mb-30px position-relative overflow-hidden">
+                    <img
+                      src="img/buyers/buyers_600x505.jpg"
+                      alt=""
+                      class="w-100 border-radius-4px" />
                     <div
-                      class="separator-line-1px w-50px bg-base-color d-inline-block align-middle me-10px opacity-2"></div>
-                    <span
-                      class="d-inline-block text-dark-gray align-middle fw-500 fs-20 ls-minus-05px">Financial projections</span>
+                      class="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-35px box-shadow-large d-flex align-items-center">
+                      <h2
+                        class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px md-ls-minus-1px mb-0 text-nowrap border-end border-1 border-color-transparent-dark-very-light pe-20px me-20px"
+                        data-to="85"></h2>
+                      <span
+                        class="text-dark-gray ls-minus-05px d-inline-block lh-22">Project completed</span>
+                    </div>
                   </div>
-                  <h4 class="fw-700 text-dark-gray ls-minus-1px md-mb-20px">
-                    We are leader in tax advisor and financial.
-                  </h4>
-                  <p class="mb-35px md-mb-25px">
-                    We provide simplified accounting solutions and qualitative
-                    business process services to the customers which helps
-                    streamline your business and give your company a
-                    competitive.
-                  </p>
-                  <a
-                    href="services.html"
-                    class="btn btn-large btn-rounded with-rounded btn-white btn-box-shadow fw-600">Learn more<span class="bg-base-color text-white"><i
-                        class="bi bi-arrow-right-short icon-extra-medium"></i></span></a>
+                  <div
+                    class="col-xl-4 col-lg-5 offset-lg-1 col-md-6 text-center text-md-start">
+                    <div class="mb-20px">
+                      <div
+                        class="separator-line-1px w-50px bg-base-color d-inline-block align-middle me-10px opacity-2"></div>
+                      <span
+                        class="d-inline-block text-dark-gray align-middle fw-500 fs-20 ls-minus-05px">Financial projections</span>
+                    </div>
+                    <h4 class="fw-700 text-dark-gray ls-minus-1px md-mb-20px">
+                      We are leader in tax advisor and financial.
+                    </h4>
+                    <p class="mb-35px md-mb-25px">
+                      We provide simplified accounting solutions and qualitative
+                      business process services to the customers which helps
+                      streamline your business and give your company a
+                      competitive.
+                    </p>
+                    <a
+                      href="services.html"
+                      class="btn btn-large btn-rounded with-rounded btn-white btn-box-shadow fw-600">Learn more<span class="bg-base-color text-white"><i
+                          class="bi bi-arrow-right-short icon-extra-medium"></i></span></a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- end tab content -->
-            <!-- start tab content -->
-            <div class="tab-pane fade in" id="tab_eight4">
-              <div
-                class="row align-items-center justify-content-center g-lg-0">
+              <!-- end tab content -->
+              <!-- start tab content -->
+              <div class="tab-pane fade in" id="tab_eight4">
                 <div
-                  class="col-md-6 sm-mb-30px position-relative overflow-hidden">
-                  <img
-                    src="img/buyers/buyers_600x505.jpg"
-                    alt=""
-                    class="w-100 border-radius-4px" />
+                  class="row align-items-center justify-content-center g-lg-0">
                   <div
-                    class="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-35px box-shadow-large d-flex align-items-center">
-                    <h2
-                      class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px md-ls-minus-1px mb-0 text-nowrap border-end border-1 border-color-transparent-dark-very-light pe-20px me-20px"
-                      data-to="80"></h2>
-                    <span
-                      class="text-dark-gray ls-minus-05px d-inline-block lh-22">Project completed</span>
-                  </div>
-                </div>
-                <div
-                  class="col-xl-4 col-lg-5 offset-lg-1 col-md-6 text-center text-md-start">
-                  <div class="mb-20px">
+                    class="col-md-6 sm-mb-30px position-relative overflow-hidden">
+                    <img
+                      src="img/buyers/buyers_600x505.jpg"
+                      alt=""
+                      class="w-100 border-radius-4px" />
                     <div
-                      class="separator-line-1px w-50px bg-base-color d-inline-block align-middle me-10px opacity-2"></div>
-                    <span
-                      class="d-inline-block text-dark-gray align-middle fw-500 fs-20 ls-minus-05px">Business planning</span>
+                      class="bg-very-light-gray w-250px position-absolute pt-20px pb-20px ps-25px pe-25px border-radius-4px bottom-30px left-35px box-shadow-large d-flex align-items-center">
+                      <h2
+                        class="vertical-counter d-inline-flex text-dark-gray fw-700 ls-minus-2px md-ls-minus-1px mb-0 text-nowrap border-end border-1 border-color-transparent-dark-very-light pe-20px me-20px"
+                        data-to="80"></h2>
+                      <span
+                        class="text-dark-gray ls-minus-05px d-inline-block lh-22">Project completed</span>
+                    </div>
                   </div>
-                  <h4 class="fw-700 text-dark-gray ls-minus-1px md-mb-20px">
-                    We creating specific business strategies.
-                  </h4>
-                  <p class="mb-35px md-mb-25px">
-                    We provide simplified accounting solutions and qualitative
-                    business process services to the customers which helps
-                    streamline your business and give your company a
-                    competitive.
-                  </p>
-                  <a
-                    href="services.html"
-                    class="btn btn-large btn-rounded with-rounded btn-white btn-box-shadow fw-600">Learn more<span class="bg-base-color text-white"><i
-                        class="bi bi-arrow-right-short icon-extra-medium"></i></span></a>
+                  <div
+                    class="col-xl-4 col-lg-5 offset-lg-1 col-md-6 text-center text-md-start">
+                    <div class="mb-20px">
+                      <div
+                        class="separator-line-1px w-50px bg-base-color d-inline-block align-middle me-10px opacity-2"></div>
+                      <span
+                        class="d-inline-block text-dark-gray align-middle fw-500 fs-20 ls-minus-05px">Business planning</span>
+                    </div>
+                    <h4 class="fw-700 text-dark-gray ls-minus-1px md-mb-20px">
+                      We creating specific business strategies.
+                    </h4>
+                    <p class="mb-35px md-mb-25px">
+                      We provide simplified accounting solutions and qualitative
+                      business process services to the customers which helps
+                      streamline your business and give your company a
+                      competitive.
+                    </p>
+                    <a
+                      href="services.html"
+                      class="btn btn-large btn-rounded with-rounded btn-white btn-box-shadow fw-600">Learn more<span class="bg-base-color text-white"><i
+                          class="bi bi-arrow-right-short icon-extra-medium"></i></span></a>
+                  </div>
                 </div>
               </div>
+              <!-- end tab content -->
             </div>
-            <!-- end tab content -->
           </div>
         </div>
       </div>
-    </div>
-    <div
-      class="tab-style-08 border-bottom border-color-extra-medium-gray bg-white box-shadow-quadruple-large">
-      <div class="container">
-        <!-- start tab navigation -->
-        <ul class="nav nav-tabs border-0 fw-500 fs-19 text-center">
-          <li class="nav-item">
-            <a data-bs-toggle="tab" href="#tab_eight1" class="nav-link active">Strategic planning<span class="tab-border bg-base-color"></span></a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              data-bs-toggle="tab"
-              href="#tab_eight2"
-              data-tab="counter">Audit assurance<span class="tab-border bg-base-color"></span></a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              data-bs-toggle="tab"
-              href="#tab_eight3"
-              data-tab="counter">Financial projections<span
-                class="tab-border bg-base-color"></span></a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              data-bs-toggle="tab"
-              href="#tab_eight4"
-              data-tab="counter">Business planning<span class="tab-border bg-base-color"></span></a>
-          </li>
-        </ul>
-        <!-- end tab navigation -->
+      <div
+        class="tab-style-08 border-bottom border-color-extra-medium-gray bg-white box-shadow-quadruple-large">
+        <div class="container">
+          <!-- start tab navigation -->
+          <ul class="nav nav-tabs border-0 fw-500 fs-19 text-center">
+            <li class="nav-item">
+              <a data-bs-toggle="tab" href="#tab_eight1" class="nav-link active">Strategic planning<span class="tab-border bg-base-color"></span></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                href="#tab_eight2"
+                data-tab="counter">Audit assurance<span class="tab-border bg-base-color"></span></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                href="#tab_eight3"
+                data-tab="counter">Financial projections<span
+                  class="tab-border bg-base-color"></span></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-bs-toggle="tab"
+                href="#tab_eight4"
+                data-tab="counter">Business planning<span class="tab-border bg-base-color"></span></a>
+            </li>
+          </ul>
+          <!-- end tab navigation -->
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- end section -->
+    </section>
+    <!-- end section -->
+  </template>
 
   <!-- start section -->
   <section id="reviews" class="overflow-hidden bg-gradient-very-light-gray">

@@ -184,7 +184,7 @@ footer a:hover {
 }
 
 @media screen and (max-width: 600px) {
-  .swiper-slide {
+  #home-banner-slider .swiper-slide {
     height: 100vh !important;
   }
 }

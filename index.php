@@ -35,7 +35,7 @@
   <?php include_once "./includes/header.php" ?>
 
   <!-- start banner slider -->
-  <section class="p-0 top-space-margin position-relative overflow-hidden">
+  <section id="home-banner-slider" class="p-0 top-space-margin position-relative overflow-hidden">
     <div
       class="swiper full-screen swiper-number-pagination-style-01 md-h-auto magic-cursor"
       data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-number", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "autoplay": { "delay": 8000, "disableOnInteraction": false },  "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'

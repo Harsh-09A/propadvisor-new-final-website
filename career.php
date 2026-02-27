@@ -65,8 +65,8 @@
           class="col-12 col-md-6 position-relative text-center page-title-extra-large d-flex flex-wrap flex-column align-items-center justify-content-center"
           data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
           <span
-            class="ps-25px pe-25px pt-5px pb-5px mb-15px text-uppercase text-base-color fs-12 ls-1px fw-600 border-radius-100px bg-gradient-dark-gray-transparent d-flex"><i class="bi bi-megaphone text-base-color icon-small me-10px"></i>Grow your business with us</span>
-          <h1 class="mb-20px text-white fw-600 ls-minus-1px">Contact us</h1>
+            class="ps-25px pe-25px pt-5px pb-5px mb-15px text-uppercase text-base-color fs-12 ls-1px fw-600 border-radius-100px bg-gradient-dark-gray-transparent d-flex"><i class="bi bi-megaphone text-base-color icon-small me-10px"></i>Join Our Team</span>
+          <h1 class="mb-20px text-white fw-600 ls-minus-1px">Careers</h1>
         </div>
       </div>
     </div>
@@ -77,7 +77,7 @@
   <section id="down-section" class="py-0">
     <div class="container">
       <div
-        class="row align-items-end justify-content-center mb-6 text-center text-lg-start sm-mb-8">
+        class="row align-items-start justify-content-center mb-6 text-center text-lg-start sm-mb-8">
         <div
           class="col-xl-5 col-lg-7 col-md-10 md-mb-25px"
           data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
@@ -85,76 +85,36 @@
               class="ps-25px pe-25px mb-20px text-uppercase text-base-color fs-14 lh-42px fw-700 border-radius-100px bg-gradient-very-light-gray-transparent d-inline-block"
               >How can help you?</span
             > -->
-          <h3 class="text-dark-gray fw-700 ls-minus-1px mb-0">
-            Have a project in mind? Get in touch!
-          </h3>
+          <div class="atropos" data-atropos>
+            <div
+              class="atropos-scale"
+              data-anime='{ "translate": [0, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+              <div class="atropos-rotate">
+                <div class="atropos-inner">
+                  <div data-atropos-offset="3">
+                    <img
+                      src="img/about/about_us_800x925_2.jpg"
+                      class="border-radius-6px w-100"
+                      alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
         <div
           class="col-xl-6 offset-xl-1 col-lg-5 col-md-10 last-paragraph-no-margin">
+          <h3 class="text-dark-gray fw-700 ls-minus-1px ">
+            Aspire to Build the Future of Real Estate
+          </h3>
           <p
             class="w-90 lg-w-100"
             data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-            We're here to help and answer any question you might have. We look
-            forward to hearing from you. Any need help you please contact us
-            or meet to office with coffee.
+            We are always looking for passionate, talented, and dedicated individuals to grow with us. If you are enthusiastic about learning, building, and creating meaningful impact — we would love to hear from you.
+
+            Whether you're an experienced professional or a fresher eager to start your journey, submit your resume and we’ll get in touch if a suitable opportunity arises.
           </p>
-        </div>
-      </div>
-      <div
-        class="row row-cols-1 row-cols-xl-4 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 mb-6 sm-mb-8"
-        data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-        <div class="col md-mb-30px text-center text-sm-start">
-          <span
-            class="alt-font fs-18 fw-700 d-block w-90 text-base-color border-bottom border-2 border-color-dark-gray pb-15px mb-15px xs-w-100"><i
-              class="feather icon-feather-map-pin d-inline-block icon-small me-10px"></i>Office location</span>
-          <div class="last-paragraph-no-margin">
-            <p>
-              Office No.: 301,3rd Floor, Wing E, Plot No.: 01, Mayuresh Delta
-              Block E, Sector – 10B, Ulwe, Navi Mumbai, Maharashtra – 410206
-            </p>
-          </div>
-        </div>
-        <div class="col md-mb-30px text-center text-sm-start">
-          <span
-            class="alt-font fs-18 fw-700 d-block w-90 border-bottom border-2 border-color-dark-gray pb-15px mb-15px xs-w-100 text-base-color"><i
-              class="feather icon-feather-mail d-inline-block icon-small me-10px"></i>Send a message</span>
-          <a href="mailto:info@propadvisor.com">info@propadvisor.co.in</a><br />
-          <a href="mailto:sales@propadvisor.com">sales@propadvisor.com</a>
-        </div>
-        <div class="col xs-mb-30px text-center text-sm-start">
-          <span
-            class="alt-font fs-18 fw-700 d-block w-90 text-base-color border-bottom border-2 border-color-dark-gray pb-15px mb-15px xs-w-100"><i
-              class="feather icon-feather-phone d-inline-block icon-small me-10px"></i>Call us directly</span>
-          <a href="tel:1800222000">+91 90299 29777</a><br />
-          <a href="tel:1800222002">+91 90299 29777</a>
-        </div>
-        <div class="col text-center text-sm-start">
-          <span
-            class="alt-font fs-18 fw-700 d-block w-90 text-base-color border-bottom border-2 border-color-dark-gray pb-15px mb-15px xs-w-100"><i
-              class="feather icon-feather-users d-inline-block icon-small me-10px"></i>Join our team</span>
-          <a href="mailto:hire@propadvisor.co.in">hire@propadvisor.co.in</a><br />
-          <a href="mailto:hr@propadvisor.co.in">hr@propadvisor.co.in</a>
-        </div>
-      </div>
-      <div
-        class="row justify-content-center g-0"
-        data-anime='{ "el": "childs", "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-        <div
-          class="col-auto text-center last-paragraph-no-margin icon-with-text-style-08 pt-20px pb-20px ps-8 pe-8 md-ps-30px md-pe-30px bg-gradient-flamingo-amethyst-green border-radius-100px xs-border-radius-30px">
-          <div
-            class="feature-box feature-box-left-icon-middle overflow-hidden">
-            <div class="feature-box-icon me-10px">
-              <i
-                class="bi bi-chat-text fs-24 icon-very-medium text-white"></i>
-            </div>
-            <div
-              class="feature-box-content last-paragraph-no-margin text-white text-uppercase fs-15 fw-600 ls-05px xs-lh-24">
-              Let's make something great work together.
-              <a
-                href="contact.html"
-                class="text-white text-decoration-line-bottom-medium">Got a project in mind?</a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -162,88 +122,71 @@
   <!-- end section -->
 
   <!-- start section -->
-  <section class="bg-very-light-gray position-relative">
+  <section class="big-section bg-spring-wood">
     <div class="container">
-      <div class="row mb-8">
-        <div
-          class="col-xl-5 col-lg-6 md-mb-50px"
-          data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-          <div
-            class="bg-white border-radius-6px box-shadow-quadruple-large p-10 ps-12 pe-12 lg-ps-8 lg-pe-8 h-100 d-flex flex-wrap flex-column justify-content-center"
-            data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-            <img src="img/contact/contact_800x925.jpg" alt="" srcset="" />
+      <div class="row">
+        <div class="col-xl-4 col-lg-5 md-mb-50px">
+          <h3 class="alt-font fw-700 ls-minus-1px text-dark-gray mb-20px">Grow With a Team That Builds Dreams.</h3>
+          <p class="mb-30px">Your information will be forwarded to a scheduling specialist who will contact you.</p>
+          <div class="icon-with-text-style-01 feature-box feature-box-left-icon-middle bg-white p-25px border-radius-6px last-paragraph-no-margin w-95 md-w-100 text-start box-shadow-double-large">
+            <!-- <div class="feature-box-icon me-15px">
+              <img src="https://placehold.co/100x62" class="h-60px" alt="">
+            </div> -->
+            <div class="feature-box-content">
+              <p class="lh-26 mb-0 text-base-color text-uppercase">Email Resume </p>
+              <!-- <a href="tel:12345678910" class="fs-20 ls-minus-1px fw-600 ls-minus-05px text-dark-gray">+1 234 567 8910</a> -->
+              <a href="mailto:hr@propadvisor.co.in">hr@propadvisor.co.in</a>
+            </div>
           </div>
         </div>
-        <div
-          class="col-lg-6 offset-xl-1 md-mb-50px sm-mb-0"
-          data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-          <h3 class="text-dark-gray ls-minus-2px fw-700">
-            Looking for any help?
-          </h3>
-          <form
-            action="email-templates/contact-form.php"
-            method="post"
-            class="contact-form-style-03">
-            <label
-              for="exampleInputEmail1"
-              class="form-label fs-13 text-uppercase text-dark-gray fw-700 mb-0">Enter your name*</label>
-            <div class="position-relative form-group mb-20px">
-              <span class="form-icon"><i class="bi bi-emoji-smile text-dark-gray"></i></span>
-              <input
-                class="fs-15 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required"
-                id="exampleInputEmail1"
-                type="text"
-                name="name"
-                placeholder="What's your good name" />
-            </div>
-            <label
-              for="exampleInputEmail1"
-              class="form-label fs-13 text-uppercase text-dark-gray fw-700 mb-0">Email address*</label>
-            <div class="position-relative form-group mb-20px">
-              <span class="form-icon"><i class="bi bi-envelope text-dark-gray"></i></span>
-              <input
-                class="fs-15 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required"
-                id="exampleInputEmail2"
-                type="email"
-                name="email"
-                placeholder="Enter your email address" />
-            </div>
-            <label
-              for="exampleInputEmail1"
-              class="form-label fs-13 text-uppercase text-dark-gray fw-700 mb-0">Your message</label>
-            <div class="position-relative form-group form-textarea mb-0">
-              <textarea
-                class="fs-15 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control"
-                name="comment"
-                placeholder="Describe about your project"
-                rows="3"></textarea>
-              <span class="form-icon"><i class="bi bi-chat-square-dots text-dark-gray"></i></span>
-            </div>
-            <div class="row mt-25px align-items-center">
-              <div class="col-xl-7 col-lg-12 col-sm-7 lg-mb-30px md-mb-0">
-                <p class="mb-0 fs-14 lh-22 text-center text-sm-start">
-                  We will never collect information about you without your
-                  explicit consent.
-                </p>
+        <div class="col-xl-8 col-lg-7">
+          <div class="contact-form-style-05">
+            <!-- start contact form -->
+            <form action="email-templates/contact-form.php" method="post">
+              <div class="row justify-content-center">
+                <div class="col-md-6 sm-mb-20px">
+                  <input class="mb-20px border-color-transparent-dark-very-light form-control bg-transparent required" type="text" name="name" placeholder="Full Name*" />
+
+                  <input class="mb-20px border-color-transparent-dark-very-light form-control bg-transparent required" type="email" name="email" placeholder="Your Email Address*" />
+
+                  <input class="mb-20px border-color-transparent-dark-very-light form-control bg-transparent required" type="tel" name="phone" placeholder="Your Phone Number*" />
+
+                  <!-- <div class="date-time row gutter-very-small">
+                    <div class="date-icon col-xl-6 lg-mb-25px">
+                      <input class="form-control border-color-transparent-dark-very-light bg-transparent" type="date" name="date" value="2023-01-01" min="2023-01-01" max="2099-12-31" />
+                    </div>
+                    <div class="time-icon col-xl-6">
+                      <input class="form-control border-color-transparent-dark-very-light bg-transparent" type="time" name="time" value="09:12" min="09:00" max="12:00" />
+                    </div>
+                  </div> -->
+
+
+                </div>
+                <div class="col-md-6">
+                  <input class="mb-20px border-color-transparent-dark-very-light form-control bg-transparent required" type="text" name="position" placeholder="Position Applied For*" />
+
+                  <input class="mb-20px border-color-transparent-dark-very-light form-control bg-transparent required" type="file" name="resume" accept=".pdf,.doc,.docx" placeholder="Upload Resume (PDF/DOC)*" />
+
+                </div>
+                <div class="col-md-6 mt-30px sm-mt-20px">
+                  <p class="fs-14 lh-22 opacity-7 text-center text-md-start mb-0">We are committed to protecting your privacy. We will never collect information about you.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-30px sm-mt-20px">
+                  <input class="bg-transparent" type="hidden" name="redirect" value="">
+                  <button class="btn btn-large btn-round-edge btn-box-shadow btn-switch-text btn-dark-gray left-icon submit w-100" type="submit">
+                    <span>
+                      <span><i class="feather icon-feather-calendar"></i></span>
+                      <span class="btn-double-text" data-text="Submit Application">Submit Application</span>
+                    </span>
+                  </button>
+                </div>
+                <div class="col-12">
+                  <div class="form-results d-none text-center mt-15px ps-15px pe-15px"></div>
+                </div>
               </div>
-              <div
-                class="col-xl-5 col-lg-12 col-sm-5 text-center text-sm-end text-lg-start text-xl-end xs-mt-25px">
-                <input
-                  id="exampleInputEmail3"
-                  type="hidden"
-                  name="redirect"
-                  value="" />
-                <button
-                  class="btn btn-dark-gray btn-medium btn-round-edge btn-box-shadow submit"
-                  type="submit">
-                  Send message
-                </button>
-              </div>
-              <div class="col-12 mt-20px mb-0 text-center text-md-start">
-                <div class="form-results d-none"></div>
-              </div>
-            </div>
-          </form>
+            </form>
+            <!-- end contact form -->
+          </div>
         </div>
       </div>
     </div>

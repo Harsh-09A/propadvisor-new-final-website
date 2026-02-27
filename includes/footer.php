@@ -2,63 +2,63 @@
     <footer class="bg-black pb-4 sm-pb-50px" style="background-image: url()">
       <div class="container">
         <div class="row mb-6">
-          <div class="col-lg-5 col-md-6 sm-mb-30px order-2 order-md-1">
+          <div class="col-lg-4 col-md-6 sm-mb-30px order-2 order-md-1">
             <h3
               class="text-white fw-500 alt-font mb-50px ls-minus-1px sm-mb-30px">
               Let's make something great work together.
             </h3>
-            <div class="row">
+            <!-- <div class="row">
               <div class="col-lg-5 col-6 footer_text-white">
                 <span
-                  class="alt-font fs-14 text-uppercase d-block text-base-color ls-1px lh-24"
-                  >Call us</span
-                >
+                  class="alt-font fs-14 text-uppercase d-block text-base-color ls-1px lh-24">Call us</span>
                 <a href="tel:+91 90299 29777">+91 90299 29777</a>
               </div>
               <div class="col-lg-6 col-6 footer_text-white">
                 <span
-                  class="alt-font fs-14 text-uppercase d-block text-base-color ls-1px lh-24"
-                  >Email Us</span
-                >
-                <a href="mailto:info@propadvisor.co.in"
-                  >info@propadvisor.co.in</a
-                >
+                  class="alt-font fs-14 text-uppercase d-block text-base-color ls-1px lh-24">Email Us</span>
+                <a href="mailto:info@propadvisor.co.in">info@propadvisor.co.in</a>
               </div>
-            </div>
+            </div> -->
           </div>
-          <div class="col-md-2 offset-lg-1 col-6 order-3 order-md-2">
+          <div class="col-md-3 offset-lg-1 col-6 order-3 order-md-2">
             <span
-              class="alt-font fs-14 text-uppercase mb-5px d-block text-base-color ls-1px"
-              >Case study</span
-            >
+              class="alt-font fs-14 text-uppercase mb-5px d-block text-base-color ls-1px">Contact Us</span>
             <ul class="footer_text-white">
-              <li><a href="">lorem 1 </a></li>
-              <li><a href="">lorem 2</a></li>
-              <li><a href="">lorem 3</a></li>
-              <li><a href="">lorem 4</a></li>
-              <li><a href="">lorem 5</a></li>
+              <li> <span
+                  class="alt-font fs-14 text-uppercase d-block text-base-color ls-1px lh-24">Call us:- </span>
+                <a href="tel:+91 90299 29777">+91 90299 29777</a>
+              </li>
+              <li>
+                <a href="tel:+91 90299 29777">+91 90299 29777</a>
+              </li>
+              <li> <span
+                  class="alt-font fs-14 text-uppercase d-block text-base-color ls-1px lh-24">Email Us:- </span>
+                <a href="mailto:info@propadvisor.co.in">info@propadvisor.co.in</a>
+              </li>
+              <li>
+                <a href="mailto:info@propadvisor.co.in">info@propadvisor.co.in</a>
+              </li>
+
             </ul>
           </div>
           <div class="col-md-2 col-6 order-3 order-md-3">
             <span
-              class="alt-font fs-14 text-uppercase mb-5px d-block text-base-color ls-1px"
-              >information</span
-            >
+              class="alt-font fs-14 text-uppercase mb-5px d-block text-base-color ls-1px">information</span>
             <ul class="footer_text-white">
               <li>
-                <a href="" target="_blank">Blogs</a>
+                <a href="blog.php" target="_blank">Blogs</a>
               </li>
               <li>
-                <a href="" target="_blank">Career</a>
+                <a href="channel-partner.php" target="_blank">Channel Partner</a>
               </li>
               <li>
-                <a href="" target="_blank">Privacy Policy </a>
+                <a href="career.php" target="_blank">Career</a>
               </li>
               <li>
-                <a href="" target="_blank">Disclaimer </a>
+                <a href="privacy-policy.php" target="_blank">Privacy Policy</a>
               </li>
               <li>
-                <a href="" target="_blank">Terms & Condition</a>
+                <a href="terms-and-conditions.php" target="_blank">Terms & Conditions</a>
               </li>
             </ul>
           </div>
@@ -66,9 +66,7 @@
             <div
               class="col-lg-12 col-md-12 col-sm-12 elements-social social-icon-style-10 text-white">
               <span
-                class="alt-font fs-14 text-uppercase mb-5px d-block text-base-color ls-1px"
-                >Follow Us</span
-              >
+                class="alt-font fs-14 text-uppercase mb-5px d-block text-base-color ls-1px">Follow Us</span>
               <ul class="">
                 <li class="me-30px">
                   <a
@@ -131,9 +129,7 @@
               <a
                 href="https://letsdigin.in/"
                 target="_blank"
-                class="text-decoration-line-bottom text-base-color"
-                >DIGIN Media</a
-              >
+                class="text-decoration-line-bottom text-base-color">DIGIN Media</a>
             </p>
           </div>
         </div>
