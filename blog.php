@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
+<?php include_once "./includes/loader.php" ?>
+
 <head>
   <title>PropAdvisor - We Bring You Home</title>
   <meta charset="utf-8" />
@@ -72,6 +74,7 @@
   </section>
   <!-- end page title -->
 
+  <?php include_once "./includes/blog-loader.php" ?>
   <!-- start section -->
   <section class="pt-0 ps-4 pe-4 xl-ps-2 xl-pe-2 lg-px-0">
     <div class="container-fluid">
@@ -80,288 +83,53 @@
           <ul
             class="blog-side-image blog-wrapper grid-loading grid grid-3col xxl-grid-2col xl-grid-2col lg-grid-2col md-grid-1col sm-grid-1col xs-grid-1col gutter-extra-large">
             <li class="grid-sizer"></li>
-            <!-- start blog item -->
-            <li class="grid-item">
-              <div
-                class="blog-box d-md-flex d-block flex-row h-100 border-radius-6px overflow-hidden box-shadow-extra-large">
+
+            <?php foreach ($blogs as $index => $blog): ?>
+
+              <!-- start blog item -->
+              <li class="grid-item">
                 <div
-                  class="blog-image w-50 sm-w-100 cover-background"
-                  style="
-                      background-image: url('https://picsum.photos/1000/1000?random=1');
+                  class="blog-box d-md-flex d-block flex-row h-100 border-radius-6px overflow-hidden box-shadow-extra-large">
+                  <div
+                    class="blog-image w-50 sm-w-100 cover-background"
+                    style="
+                      background-image: url('<?php echo $blog['featured_image']['thumbnail']; ?>');
                     ">
-                  <a
-                    href="case-study-1.html"
-                    class="blog-post-image-overlay"></a>
-                </div>
-                <div
-                  class="blog-content w-50 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
-                  <a
-                    href="case-study-1.html"
-                    class="categories-btn bg-dark-gray text-white text-uppercase fw-500 mb-30px">Creative</a>
-                  <a
-                    href="case-study-1.html"
-                    class="card-title text-dark-gray text-dark-gray-hover mb-5px fw-600 fs-18 lh-28">Creativity is nothing but a mind set free.</a>
-                  <p>Lorem ipsum is simply text of the printing...</p>
-                  <div class="mt-15px">
-                    <span class="separator bg-dark-gray"></span><a
-                      href="case-study-1.html"
-                      class="text-dark-gray text-dark-gray-hover d-inline-block fs-15 fw-500 fw-500">Den viliamson</a>
+                    <a
+                      href="<?php echo buildUrl('blog-details.php', $blog['slug']); ?>"
+                      class="blog-post-image-overlay"></a>
+                  </div>
+                  <div
+                    class="blog-content w-50 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
+                    <a
+                      href="<?php echo buildUrl('blog-details.php', $blog['slug']); ?>"
+                      class="categories-btn bg-dark-gray text-white text-uppercase fw-500 mb-30px"><?php echo $blog['categories'][0]; ?></a>
+                    <a
+                      href="<?php echo buildUrl('blog-details.php', $blog['slug']); ?>"
+                      class="card-title text-dark-gray text-dark-gray-hover mb-5px fw-600 fs-18 lh-28">
+                      <?php echo mb_strimwidth($blog['title'], 0, 40, '...'); ?>
+                    </a>
+                    <p>
+                      <?php echo mb_strimwidth($blog['excerpt'], 0, 50, '...'); ?>
+                    </p>
+                    <div class="mt-15px">
+                      <span class="separator bg-dark-gray"></span><a
+                        href="<?php echo buildUrl('blog-details.php', $blog['slug']); ?>"
+                        class="text-dark-gray text-dark-gray-hover d-inline-block fs-15 fw-500 fw-500">
+                        <?php echo !empty($blog['author']) ? htmlspecialchars($blog['author']) : 'PropAdvisor'; ?>
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item">
-              <div
-                class="blog-box d-md-flex d-block flex-row h-100 border-radius-6px overflow-hidden box-shadow-extra-large">
-                <div
-                  class="blog-image w-50 sm-w-100 cover-background"
-                  style="
-                      background-image: url('https://picsum.photos/1000/1000?random=2');
-                    ">
-                  <a
-                    href="case-study-1.html"
-                    class="blog-post-image-overlay"></a>
-                </div>
-                <div
-                  class="blog-content w-50 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
-                  <a
-                    href="case-study-1.html"
-                    class="categories-btn bg-dark-gray text-white text-uppercase fw-500 mb-30px">Creative</a>
-                  <a
-                    href="case-study-1.html"
-                    class="card-title text-dark-gray text-dark-gray-hover mb-5px fw-600 fs-18 lh-28">Simplicity, wit, and good typography.</a>
-                  <p>Lorem ipsum is simply text of the printing...</p>
-                  <div class="mt-15px">
-                    <span class="separator bg-dark-gray"></span><a
-                      href="case-study-1.html"
-                      class="text-dark-gray text-dark-gray-hover d-inline-block fs-15 fw-500 fw-500">Walton smith</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item">
-              <div
-                class="blog-box d-md-flex d-block flex-row h-100 border-radius-6px overflow-hidden box-shadow-extra-large">
-                <div
-                  class="blog-image w-50 sm-w-100 cover-background"
-                  style="
-                      background-image: url('https://picsum.photos/1000/1000?random=3');
-                    ">
-                  <a
-                    href="case-study-1.html"
-                    class="blog-post-image-overlay"></a>
-                </div>
-                <div
-                  class="blog-content w-50 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
-                  <a
-                    href="case-study-1.html"
-                    class="categories-btn bg-dark-gray text-white text-uppercase fw-500 mb-30px">Meetup</a>
-                  <a
-                    href="case-study-1.html"
-                    class="card-title text-dark-gray text-dark-gray-hover mb-5px fw-600 fs-18 lh-28">What works good is that good different.</a>
-                  <p>Lorem ipsum is simply text of the printing...</p>
-                  <div class="mt-15px">
-                    <span class="separator bg-dark-gray"></span><a
-                      href="case-study-1.html"
-                      class="text-dark-gray text-dark-gray-hover d-inline-block fs-15 fw-500 fw-500">Rosald smith</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item">
-              <div
-                class="blog-box d-md-flex d-block flex-row h-100 border-radius-6px overflow-hidden box-shadow-extra-large">
-                <div
-                  class="blog-image w-50 sm-w-100 cover-background"
-                  style="
-                      background-image: url('https://picsum.photos/1000/1000?random=4');
-                    ">
-                  <a
-                    href="case-study-1.html"
-                    class="blog-post-image-overlay"></a>
-                </div>
-                <div
-                  class="blog-content w-50 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
-                  <a
-                    href="case-study-1.html"
-                    class="categories-btn bg-dark-gray text-white text-uppercase fw-500 mb-30px">Meetup</a>
-                  <a
-                    href="case-study-1.html"
-                    class="card-title text-dark-gray text-dark-gray-hover mb-5px fw-600 fs-18 lh-28">Look at usual things with unusual.</a>
-                  <p>Lorem ipsum is simply text of the printing...</p>
-                  <div class="mt-15px">
-                    <span class="separator bg-dark-gray"></span><a
-                      href="case-study-1.html"
-                      class="text-dark-gray text-dark-gray-hover d-inline-block fs-15 fw-500 fw-500">Maya angelou</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item">
-              <div
-                class="blog-box d-md-flex d-block flex-row h-100 border-radius-6px overflow-hidden box-shadow-extra-large">
-                <div
-                  class="blog-image w-50 sm-w-100 cover-background"
-                  style="
-                      background-image: url('https://picsum.photos/1000/1000?random=5');
-                    ">
-                  <a
-                    href="case-study-1.html"
-                    class="blog-post-image-overlay"></a>
-                </div>
-                <div
-                  class="blog-content w-50 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
-                  <a
-                    href="case-study-1.html"
-                    class="categories-btn bg-dark-gray text-white text-uppercase fw-500 mb-30px">Creative</a>
-                  <a
-                    href="case-study-1.html"
-                    class="card-title text-dark-gray text-dark-gray-hover mb-5px fw-600 fs-18 lh-28">Make it simple, but significant.</a>
-                  <p>Lorem ipsum is simply text of the printing...</p>
-                  <div class="mt-15px">
-                    <span class="separator bg-dark-gray"></span><a
-                      href="case-study-1.html"
-                      class="text-dark-gray text-dark-gray-hover d-inline-block fs-15 fw-500 fw-500">Andy glamer</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item">
-              <div
-                class="blog-box d-md-flex d-block flex-row h-100 border-radius-6px overflow-hidden box-shadow-extra-large">
-                <div
-                  class="blog-image w-50 sm-w-100 cover-background"
-                  style="
-                      background-image: url('https://picsum.photos/1000/1000?random=6');
-                    ">
-                  <a
-                    href="case-study-1.html"
-                    class="blog-post-image-overlay"></a>
-                </div>
-                <div
-                  class="blog-content w-50 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
-                  <a
-                    href="case-study-1.html"
-                    class="categories-btn bg-dark-gray text-white text-uppercase fw-500 mb-30px">Business</a>
-                  <a
-                    href="case-study-1.html"
-                    class="card-title text-dark-gray text-dark-gray-hover mb-5px fw-600 fs-18 lh-28">Do not seek praise seek criticism.</a>
-                  <p>Lorem ipsum is simply text of the printing...</p>
-                  <div class="mt-15px">
-                    <span class="separator bg-dark-gray"></span><a
-                      href="case-study-1.html"
-                      class="text-dark-gray text-dark-gray-hover d-inline-block fs-15 fw-500 fw-500">Den viliamson</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item">
-              <div
-                class="blog-box d-md-flex d-block flex-row h-100 border-radius-6px overflow-hidden box-shadow-extra-large">
-                <div
-                  class="blog-image w-50 sm-w-100 cover-background"
-                  style="
-                      background-image: url('https://picsum.photos/1000/1000?random=7');
-                    ">
-                  <a
-                    href="case-study-1.html"
-                    class="blog-post-image-overlay"></a>
-                </div>
-                <div
-                  class="blog-content w-50 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
-                  <a
-                    href="case-study-1.html"
-                    class="categories-btn bg-dark-gray text-white text-uppercase fw-500 mb-30px">Design</a>
-                  <a
-                    href="case-study-1.html"
-                    class="card-title text-dark-gray text-dark-gray-hover mb-5px fw-600 fs-18 lh-28">Leave it better than you found it.</a>
-                  <p>Lorem ipsum is simply text of the printing...</p>
-                  <div class="mt-15px">
-                    <span class="separator bg-dark-gray"></span><a
-                      href="case-study-1.html"
-                      class="text-dark-gray text-dark-gray-hover d-inline-block fs-15 fw-500 fw-500">Jones robbert</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item">
-              <div
-                class="blog-box d-md-flex d-block flex-row h-100 border-radius-6px overflow-hidden box-shadow-extra-large">
-                <div
-                  class="blog-image w-50 sm-w-100 cover-background"
-                  style="
-                      background-image: url('https://picsum.photos/1000/1000?random=8');
-                    ">
-                  <a
-                    href="case-study-1.html"
-                    class="blog-post-image-overlay"></a>
-                </div>
-                <div
-                  class="blog-content w-50 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
-                  <a
-                    href="case-study-1.html"
-                    class="categories-btn bg-dark-gray text-white text-uppercase fw-500 mb-30px">Design</a>
-                  <a
-                    href="case-study-1.html"
-                    class="card-title text-dark-gray text-dark-gray-hover mb-5px fw-600 fs-18 lh-28">Fashion fades, only style remains same.</a>
-                  <p>Lorem ipsum is simply text of the printing...</p>
-                  <div class="mt-15px">
-                    <span class="separator bg-dark-gray"></span><a
-                      href="case-study-1.html"
-                      class="text-dark-gray text-dark-gray-hover d-inline-block fs-15 fw-500 fw-500">Hugh macleod</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- end blog item -->
-            <!-- start blog item -->
-            <li class="grid-item">
-              <div
-                class="blog-box d-md-flex d-block flex-row h-100 border-radius-6px overflow-hidden box-shadow-extra-large">
-                <div
-                  class="blog-image w-50 sm-w-100 cover-background"
-                  style="
-                      background-image: url('https://picsum.photos/1000/1000?random=9');
-                    ">
-                  <a
-                    href="case-study-1.html"
-                    class="blog-post-image-overlay"></a>
-                </div>
-                <div
-                  class="blog-content w-50 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
-                  <a
-                    href="case-study-1.html"
-                    class="categories-btn bg-dark-gray text-white text-uppercase fw-500 mb-30px">Business</a>
-                  <a
-                    href="case-study-1.html"
-                    class="card-title text-dark-gray text-dark-gray-hover mb-5px fw-600 fs-18 lh-28">Everything is design are designed well.</a>
-                  <p>Lorem ipsum is simply text of the printing...</p>
-                  <div class="mt-15px">
-                    <span class="separator bg-dark-gray"></span><a
-                      href="case-study-1.html"
-                      class="text-dark-gray text-dark-gray-hover d-inline-block fs-15 fw-500 fw-500">Den viliamson</a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- end blog item -->
+              </li>
+              <!-- end blog item -->
+
+            <?php endforeach; ?>
+
           </ul>
         </div>
-        <div class="col-12 mt-4 d-flex justify-content-center">
+        <!-- Pagination -->
+        <!-- <div class="col-12 mt-4 d-flex justify-content-center">
           <ul class="pagination pagination-style-01 fs-13 fw-500 mb-0">
             <li class="page-item">
               <a class="page-link" href="#"><i
@@ -378,7 +146,7 @@
                   class="feather icon-feather-arrow-right fs-18 d-xs-none"></i></a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

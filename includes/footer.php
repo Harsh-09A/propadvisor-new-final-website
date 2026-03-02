@@ -29,14 +29,14 @@
                 <a href="tel:+91 90299 29777">+91 90299 29777</a>
               </li>
               <li>
-                <a href="tel:+91 90299 29777">+91 90299 29777</a>
+                <a href="tel:+91 74000 22275">+91 74000 22275</a>
               </li>
               <li> <span
                   class="alt-font fs-14 text-uppercase d-block text-base-color ls-1px lh-24">Email Us:- </span>
                 <a href="mailto:info@propadvisor.co.in">info@propadvisor.co.in</a>
               </li>
               <li>
-                <a href="mailto:info@propadvisor.co.in">info@propadvisor.co.in</a>
+                <a href="mailto:sales@propadvisor.co.in">sales@propadvisor.co.in</a>
               </li>
 
             </ul>
