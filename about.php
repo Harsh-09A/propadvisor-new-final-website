@@ -168,13 +168,13 @@
             .
           </p>
           <!-- <a
-              href="services.html"
+              href="services.php"
               class="btn btn-large btn-gold btn-box-shadow btn-rounded mt-15px sm-mt-10px"
               >Explore Our Services <i class="fa-solid fa-arrow-right"></i
             ></a> -->
 
           <a
-            href="services.html"
+            href="services.php"
             class="btn btn-large btn-dark-gray btn-switch-text btn-box-shadow border-1 left-icon me-10px sm-mb-15px sm-mt-15px">
             <span>
               <span class="btn-double-text" data-text="Explore Our Services">Explore Our Services
@@ -417,13 +417,13 @@
           </p>
 
           <!-- <a
-              href="services.html"
+              href="services.php"
               class="btn btn-large btn-gold btn-box-shadow btn-rounded mt-15px sm-mt-10px"
               >Our services<i class="fa-solid fa-arrow-right"></i
             ></a> -->
 
           <a
-            href="services.html"
+            href="services.php"
             class="btn btn-large btn-dark-gray btn-switch-text btn-box-shadow border-1 left-icon me-10px sm-mb-15px sm-mt-15px">
             <span>
               <span class="btn-double-text" data-text="Explore Our Services">Explore Our Services

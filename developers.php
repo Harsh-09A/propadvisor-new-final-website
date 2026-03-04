@@ -67,7 +67,7 @@
             </div>
           </h1>
 
-          <a href="contact.html">
+          <a href="contact.php">
             <button
               class="btn btn-extra-large btn-round-edge btn-base-color btn-box-shadow w-100 submit ls-0px">
               <span>

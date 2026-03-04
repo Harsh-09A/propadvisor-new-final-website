@@ -151,7 +151,7 @@
               class="feature-box-content last-paragraph-no-margin text-white text-uppercase fs-15 fw-600 ls-05px xs-lh-24">
               Let's make something great work together.
               <a
-                href="contact.html"
+                href="contact.php"
                 class="text-white text-decoration-line-bottom-medium">Got a project in mind?</a>
             </div>
           </div>

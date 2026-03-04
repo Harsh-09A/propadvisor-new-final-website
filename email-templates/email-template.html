@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" style="margin: 0; padding: 0; font-family: Arial, sans-serif">
+  <body style="background: #f4f6f8; margin: 0; padding: 20px">
+    <table
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      style="
+        max-width: 600px;
+        margin: auto;
+        background: #ffffff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      ">
+      <tr>
+        <td
+          style="
+            background: #00c4cc;
+            padding: 30px;
+            color: #ffffff;
+            text-align: center;
+          ">
+          <h2 style="margin: 0; font-size: 22px">New Inquiry Received</h2>
+          <!-- <p style="margin: 5px 0 0; font-size: 14px; opacity: 0.9">
+            from {{user_name}}
+          </p> -->
+        </td>
+      </tr>
+
+      <tr>
+        <td style="padding: 25px">
+          <p style="margin: 0 0 15px; font-size: 16px; color: #333">
+            Hello <strong>{{company_name}}</strong>,
+          </p>
+
+          <p style="margin: 0 0 20px; font-size: 15px; color: #555">
+            You have received a new real estate enquiry. Here are the details:
+          </p>
+
+          <table
+            width="100%"
+            cellpadding="0"
+            cellspacing="0"
+            style="font-size: 14px; color: #444">
+            <tr>
+              <td style="padding: 8px 0; font-weight: 600">Name:</td>
+              <td style="padding: 8px 0">{{user_name}}</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px 0; font-weight: 600">Email:</td>
+              <td style="padding: 8px 0">{{user_email}}</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px 0; font-weight: 600">Phone No:</td>
+              <td style="padding: 8px 0">{{contact_number}}</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px 0; font-weight: 600">IP Address:</td>
+              <td style="padding: 8px 0">{{ip_address}}</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px 0; font-weight: 600">URL:</td>
+              <td style="padding: 8px 0">{{website_url}}</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px 0; font-weight: 600">Project:</td>
+              <td style="padding: 8px 0">{{company_name}}</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px 0; font-weight: 600">Date:</td>
+              <td style="padding: 8px 0">{{date}}</td>
+            </tr>
+          </table>
+
+          <p style="margin: 25px 0 10px; font-size: 15px; color: #333">
+            Best wishes,<br />
+            <strong>DigIN Team</strong>
+          </p>
+        </td>
+      </tr>
+
+      <tr>
+        <td
+          style="
+            background: #f1f1f1;
+            text-align: center;
+            padding: 12px;
+            font-size: 12px;
+            color: #888;
+          ">
+          This is an automated message. Please do not reply.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

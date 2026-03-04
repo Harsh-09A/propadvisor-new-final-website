@@ -74,7 +74,7 @@
                   </span>
                   <div class="d-inline-block mt-10px sm-mt-30px">
                     <a
-                      href="about.html"
+                      href="about.php"
                       class="btn btn-extra-large btn-white btn-switch-text btn-box-shadow d-inline-block me-20px sm-me-10px align-middle left-icon">
                       <span>
                         <span><i class="feather icon-feather-arrow-right"></i></span>
@@ -84,7 +84,7 @@
                       </span>
                     </a>
                     <!-- <a
-                        href="demo-green-energy-services.html"
+                        href="demo-green-energy-services.php"
                         class="btn btn-link btn-hover-animation-switch fw-500 btn-extra-large text-white btn-icon-left xs-mt-15px">
                         <span>
                           <span class="btn-text">View services</span>
@@ -137,7 +137,7 @@
                   </span>
                   <div class="d-inline-block mt-10px sm-mt-30px">
                     <a
-                      href="services.html"
+                      href="services.php"
                       class="btn btn-extra-large btn-white btn-switch-text btn-box-shadow d-inline-block me-20px sm-me-10px align-middle left-icon">
                       <span>
                         <span><i class="feather icon-feather-arrow-right"></i></span>
@@ -147,7 +147,7 @@
                       </span>
                     </a>
                     <!-- <a
-                        href="demo-green-energy-services.html"
+                        href="demo-green-energy-services.php"
                         class="btn btn-link btn-hover-animation-switch fw-500 btn-extra-large text-white btn-icon-left xs-mt-15px">
                         <span>
                           <span class="btn-text">View services</span>
@@ -201,7 +201,7 @@
                   </span>
                   <div class="d-inline-block mt-10px sm-mt-30px">
                     <a
-                      href="case-studies.html"
+                      href="case-studies.php"
                       class="btn btn-extra-large btn-white btn-switch-text btn-box-shadow d-inline-block me-20px sm-me-10px align-middle left-icon">
                       <span>
                         <span><i class="feather icon-feather-arrow-right"></i></span>
@@ -211,7 +211,7 @@
                       </span>
                     </a>
                     <!-- <a
-                        href="demo-green-energy-services.html"
+                        href="demo-green-energy-services.php"
                         class="btn btn-link btn-hover-animation-switch fw-500 btn-extra-large text-white btn-icon-left xs-mt-15px">
                         <span>
                           <span class="btn-text">View services</span>
@@ -274,7 +274,7 @@
                       </span>
                     </a>
                     <!-- <a
-                        href="demo-green-energy-services.html"
+                        href="demo-green-energy-services.php"
                         class="btn btn-link btn-hover-animation-switch fw-500 btn-extra-large text-white btn-icon-left xs-mt-15px">
                         <span>
                           <span class="btn-text">View services</span>
@@ -374,7 +374,7 @@
               investors to the right property decisions.
             </p>
             <a
-              href="about.html"
+              href="about.php"
               class="btn btn-large btn-dark-gray btn-switch-text btn-box-shadow border-1 left-icon me-10px sm-mb-15px sm-mt-15px">
               <span>
                 <span><i class="feather icon-feather-arrow-right"></i></span>
@@ -383,7 +383,7 @@
               </span>
             </a>
             <a
-              href="services.html"
+              href="services.php"
               class="btn btn-large btn-transparent-light-gray border-1 btn-switch-text left-icon sm-mb-15px sm-mt-15px">
               <span>
                 <span><i class="feather icon-feather-briefcase"></i></span>
@@ -851,7 +851,7 @@
       </div>
       <div class="text-center">
         <a
-          href="developers.html"
+          href="developers.php"
           class="btn btn-large btn-dark-gray btn-switch-text btn-box-shadow border-1 left-icon me-10px sm-mb-15px sm-mt-15px">
           <span>
             <span><i class="feather icon-feather-arrow-right"></i></span>
@@ -860,7 +860,7 @@
           </span>
         </a>
         <a
-          href="buyers.html"
+          href="buyers.php"
           class="btn btn-large btn-transparent-light-gray border-1 btn-switch-text left-icon sm-mb-15px sm-mt-15px">
           <span>
             <span><i class="feather icon-feather-briefcase"></i></span>
@@ -925,7 +925,7 @@
                   voluptatem praesentium pariatur fugit molestiae iste enim
                 </p>
                 <a
-                  href="projects.html"
+                  href="projects.php"
                   class="btn btn-large btn-dark-gray btn-switch-text btn-box-shadow fw-400">
                   <span>
                     <span class="btn-double-text" data-text="Explore project">

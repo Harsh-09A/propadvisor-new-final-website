@@ -72,7 +72,7 @@ if (!$case) {
               class="text-dark-gray text-decoration-line-bottom fw-500">PropAdvisor</a>
             <!-- in
               <a
-                href="demo-accounting-news.html"
+                href="demo-accounting-news.php"
                 class="text-dark-gray text-decoration-line-bottom fw-500"
                 >Marketing</a
               > -->
