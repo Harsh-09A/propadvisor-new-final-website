@@ -110,7 +110,8 @@ body {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
-  color: var(--medium-gray);
+  /* color: var(--medium-gray); */
+  color: var(--black);
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   -webkit-font-smoothing: antialiased;

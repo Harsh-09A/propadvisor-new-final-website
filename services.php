@@ -195,7 +195,7 @@
                       background-image: url('img/services/developers_service/Exclusive-Mandate-Services.jpg');
                     ">
                   <i
-                    class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                    class="fa-solid fa-handshake align-middle icon-extra-large text-base-color mt-20px"></i>
                   <!-- <h2 class="text-white fs-30">Exclusive Mandate Services</h2> -->
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
@@ -231,7 +231,7 @@
                       background-image: url('img/services/developers_service/planning-and-sales-forecasting.jpg');
                     ">
                   <i
-                    class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                    class="fa-solid fa-chart-line align-middle icon-extra-large text-base-color mt-20px"></i>
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
                   <div class="box-overlay bg-black"></div>
@@ -265,7 +265,7 @@
                       background-image: url('img/services/developers_service/Feasibility-Report.jpg');
                     ">
                   <i
-                    class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                    class="fa-solid fa-file-alt align-middle icon-extra-large text-base-color mt-20px"></i>
                   <!-- <h5 class="text-white mt-2 text-center">Feasibility Report</h5> -->
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
@@ -301,14 +301,13 @@
                       background-image: url('img/services/developers_service/Market-Insights-On-Buyer-Behavior-And-Trends.jpg');
                     ">
                   <i
-                    class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                    class="fa-solid fa-chart-pie align-middle icon-extra-large text-base-color mt-20px"></i>
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
                   <div class="box-overlay bg-black"></div>
                   <div
                     class="content-wrap p-40px xs-p-30px last-paragraph-no-margin">
-                    <i
-                      class="line-icon-Building align-middle icon-extra-large text-base-color mb-20px"></i>
+
                     <p class="text-white lh-30 sm-w-70 xs-w-100 mx-auto">
                       Actionable insights on trends, demand, and buyer
                       behavior in Navi Mumbai.
@@ -337,7 +336,7 @@
                       background-image: url('img/services/developers_service/Branding-And-Marketing-Campaigns.jpg');
                     ">
                   <i
-                    class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                    class="fa-solid fa-bullhorn align-middle icon-extra-large text-base-color mt-20px"></i>
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
                   <div class="box-overlay bg-black"></div>
@@ -371,7 +370,7 @@
                       background-image: url('img/services/developers_service/End-to-End-Sales-Execution.jpg');
                     ">
                   <i
-                    class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                    class="fa-solid fa-people-carry-box align-middle icon-extra-large text-base-color mt-20px"></i>
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
                   <div class="box-overlay bg-black"></div>
@@ -445,7 +444,7 @@
                       background-image: url('img/services/buyers_service/bespoke-property-advisory.jpg');
                     ">
                   <i
-                    class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                    class="fa-solid fa-building-user align-middle icon-extra-large text-base-color mt-20px"></i>
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
                   <div class="box-overlay bg-black"></div>
@@ -479,7 +478,7 @@
                       background-image: url('img/services/buyers_service/Legal-And-Financial-Guidance.jpg');
                     ">
                   <i
-                    class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                    class="fa-solid fa-scale-balanced align-middle icon-extra-large text-base-color mt-20px"></i>
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
                   <div class="box-overlay bg-black"></div>
@@ -514,7 +513,7 @@
                       background-image: url('img/services/buyers_service/NRI-Property-Assistance.jpg');
                     ">
                   <i
-                    class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                    class="fa-solid fa-globe align-middle icon-extra-large text-base-color mt-20px"></i>
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
                   <div class="box-overlay bg-black"></div>
@@ -549,7 +548,7 @@
                       background-image: url('img/services/buyers_service/uae-real-estate-investment.jpg');
                     ">
                   <i
-                    class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                    class="fa-solid fa-landmark align-middle icon-extra-large text-base-color mt-20px"></i>
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
                   <div class="box-overlay bg-black"></div>
@@ -583,7 +582,7 @@
                       background-image: url('img/services/buyers_service/Transparent-Process.jpg');
                     ">
                   <i
-                    class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                    class="fa-solid fa-eye align-middle icon-extra-large text-base-color mt-20px"></i>
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
                   <div class="box-overlay bg-black"></div>
@@ -617,7 +616,7 @@
                       background-image: url('img/services/buyers_service/Zero-Brokerage.jpg');
                     ">
                   <i
-                    class="line-icon-Building align-middle icon-extra-large text-base-color mt-20px"></i>
+                    class="fa-solid fa-percent align-middle icon-extra-large text-base-color mt-20px"></i>
                 </div>
                 <div class="back border-radius-4px overflow-hidden">
                   <div class="box-overlay bg-black"></div>

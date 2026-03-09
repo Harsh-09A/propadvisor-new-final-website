@@ -5,8 +5,8 @@ include_once "./includes/api-client.php";
 // ----------------------------------------
 // Case Studies
 // ----------------------------------------
-// $casesApi = "https://projects.thedeltagroup.co.in/wp-json/wl/v1/cases";
-$casesApi = "https://projects.thedeltagroup.co.in/wp-json/wl/v1/posts";
+
+// $casesApi = "https://backend.propadvisor.co.in/wp-json/wl/v1/case-study";
 $casesRes = fetchApiData($casesApi);
 
 $cases = $casesRes['status'] ? $casesRes['data'] : [];

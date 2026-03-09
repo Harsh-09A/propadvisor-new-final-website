@@ -82,7 +82,7 @@
       <div class="row">
         <div class="col">
           <ul
-            class="image-gallery-style-02 gallery-wrapper grid grid-4col xxl-grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-large">
+            class="image-gallery-style-02 gallery-wrapper grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-1col sm-grid-1col xs-grid-1col gutter-extra-large">
             <li class="grid-sizer"></li>
             <!-- start gallery item -->
             <li
@@ -258,64 +258,7 @@
               </div>
             </li>
             <!-- end gallery item -->
-            <!-- start gallery item -->
-            <li
-              class="grid-item transition-inner-all atropos"
-              data-atropos
-              data-atropos-perspective="1150">
-              <div class="atropos-scale">
-                <div class="atropos-rotate">
-                  <div class="atropos-inner" data-atropos-offset="3">
-                    <div class="gallery-box">
-                      <a
-                        href="https://placehold.co/800x743"
-                        data-group="lightbox-group-gallery-item-2"
-                        title="Lightbox gallery image title">
-                        <div
-                          class="position-relative gallery-image bg-slate-blue">
-                          <img src="https://placehold.co/800x743" alt="" />
-                          <div
-                            class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                            <i
-                              class="bi bi-camera icon-medium text-white"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- end gallery item -->
-            <!-- start gallery item -->
-            <li
-              class="grid-item transition-inner-all atropos"
-              data-atropos
-              data-atropos-perspective="1150">
-              <div class="atropos-scale">
-                <div class="atropos-rotate">
-                  <div class="atropos-inner" data-atropos-offset="3">
-                    <div class="gallery-box">
-                      <a
-                        href="https://placehold.co/800x743"
-                        data-group="lightbox-group-gallery-item-2"
-                        title="Lightbox gallery image title">
-                        <div
-                          class="position-relative gallery-image bg-slate-blue">
-                          <img src="https://placehold.co/800x743" alt="" />
-                          <div
-                            class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                            <i
-                              class="bi bi-camera icon-medium text-white"></i>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <!-- end gallery item -->
+
           </ul>
         </div>
       </div>

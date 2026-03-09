@@ -194,3 +194,14 @@ footer a:hover {
  #developer-benefits .icon-with-text-style-10 .feature-box .feature-box-icon-rounded {
  background: var(--base-color) !important;
 }
+.contact-links a{
+color: black;
+}
+
+.usp_imgs{
+  height: 105px !important;
+}
+
+.blogs-details-page strong{
+  color: var(--base-color) !important;
+}

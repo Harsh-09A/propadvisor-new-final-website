@@ -5,7 +5,7 @@ include_once "./includes/api-client.php";
 // ----------------------------------------
 // Fetch Blogs
 // ----------------------------------------
-$blogsApi = "https://projects.thedeltagroup.co.in/wp-json/wl/v1/posts";
+$blogsApi = "https://backend.propadvisor.co.in/wp-json/wl/v1/posts";
 $blogsRes = fetchApiData($blogsApi);
 
 $blogs = $blogsRes['status'] ? $blogsRes['data'] : [];

@@ -58,7 +58,8 @@
                       </a>
                     </li>
                     <li>
-                      <a href="case-studies.php"><i class="bi bi-clipboard-data"></i>Case Studies
+                      <!-- case-studies.php -->
+                      <a href="#"><i class="bi bi-clipboard-data"></i>Case Studies
                       </a>
                     </li>
                     <li>
@@ -77,7 +78,7 @@
                   <a href="buyers.php" class="nav-link">Buyers</a>
                 </li>
                 <li class="nav-item">
-                  <a href="channel-partner.php" class="nav-link">Channel Partner</a>
+                  <a href="channel-partner.php" class="nav-link">Channel Partners</a>
                 </li>
                 <li class="nav-item">
                   <a href="contact.php" class="nav-link">Contact</a>

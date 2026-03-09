@@ -41,18 +41,18 @@
     style="background-image: url('img/common/section_background.jpg')">
     <div class="container h-100">
       <div class="row justify-content-center align-items-center h-100">
-        <div class="col-md-7 position-relative h-100 order-2 order-md-1">
+        <div class="col-md-5 position-relative h-100 order-2 order-md-1">
           <div
             class="position-absolute sm-position-relative left-0px bottom-0px md-bottom-25px p-2 z-index-2"
             data-anime='{ "el": "childs", "translateY": [30, 0], "perspective": [500,1200], "scale": [1.05, 1], "rotateY": [-40, 0], "opacity": [0,1], "duration": 800, "delay": 100, "staggervalue": 200, "easing": "easeOutQuad" }'>
             <img
-              src="img/developers/developer_banner_600x800_3.jpg"
+              src="img/developers/developer_banner_600x800-3.png"
               alt=""
               class="developer_banner" />
           </div>
         </div>
         <div
-          class="col-md-5 md-mb-70px sm-mb-40px sm-mt-50px position-relative text-white order-1 order-md-2"
+          class="col-md-7 md-mb-70px sm-mb-40px sm-mt-50px position-relative text-white order-1 order-md-2"
           data-anime='{ "el": "childs", "opacity": [0, 1], "translateX": [100, 0], "staggervalue": 300, "easing": "easeOutQuad" }'>
           <h1
             class="alt-font fw-400 fs-90 lg-fs-80 sm-fs-65 text-uppercase mb-35px sm-mb-25px ls-minus-2px">
@@ -1105,8 +1105,7 @@
             style="background-image: url('')">
             <h3
               class="fw-500 alt-font text-dark-gray text-uppercase ls-minus-2px">
-              Get in touch now!
-            </h3>
+              Let’s Connect Over A Coffee </h3>
             <!-- start contact form -->
             <form action="email-templates/contact-form.php" method="post">
               <div class="position-relative form-group mb-15px">

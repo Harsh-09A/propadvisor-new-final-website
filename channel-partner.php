@@ -65,8 +65,9 @@
           class="col-12 col-md-6 position-relative text-center page-title-extra-large d-flex flex-wrap flex-column align-items-center justify-content-center"
           data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
           <span
-            class="ps-25px pe-25px pt-5px pb-5px mb-15px text-uppercase text-base-color fs-12 ls-1px fw-600 border-radius-100px bg-gradient-dark-gray-transparent d-flex"><i class="bi bi-megaphone text-base-color icon-small me-10px"></i>Grow your business with us</span>
-          <h1 class="mb-20px text-white fw-600 ls-minus-1px">Contact us</h1>
+            class="ps-25px pe-25px pt-5px pb-5px mb-15px text-uppercase text-base-color fs-12 ls-1px fw-600 border-radius-100px bg-gradient-dark-gray-transparent d-flex"><i class="bi bi-megaphone text-base-color icon-small me-10px"></i>Partner With Us. Grow Your Real Estate Business.</span>
+          <h1 class="mb-20px text-white fw-600 ls-minus-1px">Channel Partner Program
+          </h1>
         </div>
       </div>
     </div>
@@ -74,86 +75,342 @@
   <!-- end page title -->
 
   <!-- start section -->
-  <section id="down-section" class="py-0">
+  <section id="down-section zero_top">
     <div class="container">
-      <div
-        class="row align-items-end justify-content-center mb-6 text-center text-lg-start sm-mb-8">
+      <div class="row align-items-center justify-content-center p-0">
         <div
-          class="col-xl-5 col-lg-7 col-md-10 md-mb-25px"
-          data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-          <!-- <span
-              class="ps-25px pe-25px mb-20px text-uppercase text-base-color fs-14 lh-42px fw-700 border-radius-100px bg-gradient-very-light-gray-transparent d-inline-block"
-              >How can help you?</span
+          class="col-lg-6 col-md-10 position-relative z-index-1 md-mb-40px">
+          <div class="mb-10px">
+            <!-- <span
+                class="w-25px h-1px d-inline-block bg-base-color me-5px align-middle"></span> -->
+            <!-- <span
+              class="text-gradient-base-color fs-15 alt-font fw-700 ls-05px text-uppercase d-inline-block align-middle">our story</span> -->
+          </div>
+          <h4 class="text-dark-gray alt-font fw-600 ls-minus-2px mb-20px">
+            Benefits of Partnering With Us
+          </h4>
+
+          <p class="">
+            Join our growing network of trusted channel partners and unlock new opportunities in the real estate market. We collaborate with dedicated agents and agencies by providing access to premium projects, complete sales support, and reliable resources that help you serve your clients better. Together, we focus on building long-term partnerships that drive consistent growth and mutual success.
+
+          </p>
+          <ul class="p-0 m-0 list-style-01 fw-500">
+            <li
+              class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+              Expand your project portfolio
+            </li>
+            <li
+              class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+              Close deals faster with expert support
+            </li>
+            <li
+              class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+              Access verified high-demand properties
+            </li>
+            <li
+              class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+              Build stronger client relationships
+            </li>
+            <li
+              class="border-color-transparent-dark-light pt-10px pb-10px text-dark-gray">
+              Increase your earning potential
+            </li>
+          </ul>
+
+          <a
+            href="services.php"
+            class="btn btn-large btn-dark-gray btn-switch-text btn-box-shadow border-1 left-icon me-10px sm-mb-15px sm-mt-15px">
+            <span>
+              <span class="btn-double-text" data-text="Explore Our Services">Explore Our Services
+              </span>
+              <span>&nbsp; <i class="fa-solid fa-arrow-right"></i></span>
+            </span>
+          </a>
+        </div>
+        <div
+          class="col-xl-5 col-lg-6 offset-lg-1 col-md-9 ps-6 text-center text-lg-start lg-ps-15px"
+          data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+
+
+
+          <div class="atropos" data-atropos>
+            <div
+              class="atropos-scale"
+              data-anime='{ "translate": [0, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+              <div class="atropos-rotate">
+                <div class="atropos-inner">
+                  <div data-atropos-offset="3">
+                    <img
+                      src="img/career/partnering-with-us.jpg"
+                      class="border-radius-6px w-100"
+                      alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end section -->
+
+  <!-- start section -->
+  <section class="bg-theme-4 overflow-hidden">
+    <div class="container">
+      <div class="row justify-content-center mb-4">
+        <div
+          class="col-lg-7 text-center"
+          data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+          <!-- <span class="fs-20 text-crusoe-green text-dark"
+              >Developers service</span
             > -->
-          <h3 class="text-dark-gray fw-700 ls-minus-1px mb-0">
-            Have a project in mind? Get in touch!
+          <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">
+            What
+            <span class="fw-700 text-decoration-line-bottom-medium">We Offer</span>
           </h3>
         </div>
-        <div
-          class="col-xl-6 offset-xl-1 col-lg-5 col-md-10 last-paragraph-no-margin">
-          <p
-            class="w-90 lg-w-100"
-            data-anime='{ "el": "lines", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-            We're here to help and answer any question you might have. We look
-            forward to hearing from you. Any need help you please contact us
-            or meet to office with coffee.
-          </p>
-        </div>
       </div>
       <div
-        class="row row-cols-1 row-cols-xl-4 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 mb-6 sm-mb-8"
-        data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-        <div class="col md-mb-30px text-center text-sm-start">
-          <span
-            class="alt-font fs-18 fw-700 d-block w-90 text-base-color border-bottom border-2 border-color-dark-gray pb-15px mb-15px xs-w-100"><i
-              class="feather icon-feather-map-pin d-inline-block icon-small me-10px"></i>Office location</span>
-          <div class="last-paragraph-no-margin">
-            <p>
-              Office No.: 301,3rd Floor, Wing E, Plot No.: 01, Mayuresh Delta
-              Block E, Sector – 10B, Ulwe, Navi Mumbai, Maharashtra – 410206
-            </p>
+        class="row row-cols-1 row-cols-xl-4 row-cols-lg-3 row-cols-md-2 justify-content-center"
+        data-anime='{ "el": "childs", "rotateZ": [5, 0], "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+        <!-- start rotate box item -->
+        <div class="col  mb-30px">
+          <div class="w-100 min-h-300px text-center ">
+            <!-- start front side -->
+            <div
+              class="w-100 h-100 overflow-hidden z-index-1 front-side bg-white border-radius-6px box-shadow-quadruple-large">
+              <div class=" z-index-2 p-30px">
+                <img
+                  class="mb-25px h-70px"
+                  src="img/developers/services/service_icon/demo-lawyer-practice-areas-icon-01.svg"
+                  alt="" />
+                <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">
+                  Exclusive Project Access
+                </div>
+                <span>Priority access to premium residential and commercial projects across prime locations.</span>
+              </div>
+            </div>
+            <!-- end front side -->
+
           </div>
         </div>
-        <div class="col md-mb-30px text-center text-sm-start">
-          <span
-            class="alt-font fs-18 fw-700 d-block w-90 border-bottom border-2 border-color-dark-gray pb-15px mb-15px xs-w-100 text-base-color"><i
-              class="feather icon-feather-mail d-inline-block icon-small me-10px"></i>Send a message</span>
-          <a href="mailto:info@propadvisor.com">info@propadvisor.co.in</a><br />
-          <a href="mailto:sales@propadvisor.com">sales@propadvisor.com</a>
+        <!-- end rotate box item -->
+
+        <!-- start rotate box item -->
+        <div class="col  mb-30px">
+          <div class="w-100 min-h-300px text-center ">
+            <!-- start front side -->
+            <div
+              class="w-100 h-100 overflow-hidden z-index-1 front-side bg-white border-radius-6px box-shadow-quadruple-large">
+              <div class=" z-index-2 p-30px">
+                <img
+                  class="mb-25px h-70px"
+                  src="img/developers/services/service_icon/demo-lawyer-practice-areas-icon-01.svg"
+                  alt="" />
+                <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">
+                  Attractive Commission Structure
+                </div>
+                <span>Competitive and transparent commission models that reward your performance.</span>
+              </div>
+            </div>
+            <!-- end front side -->
+
+          </div>
         </div>
-        <div class="col xs-mb-30px text-center text-sm-start">
-          <span
-            class="alt-font fs-18 fw-700 d-block w-90 text-base-color border-bottom border-2 border-color-dark-gray pb-15px mb-15px xs-w-100"><i
-              class="feather icon-feather-phone d-inline-block icon-small me-10px"></i>Call us directly</span>
-          <a href="tel:1800222000">+91 90299 29777</a><br />
-          <a href="tel:1800222002">+91 90299 29777</a>
+        <!-- end rotate box item -->
+
+        <!-- start rotate box item -->
+        <div class="col  mb-30px">
+          <div class="w-100 min-h-300px text-center ">
+            <!-- start front side -->
+            <div
+              class="w-100 h-100 overflow-hidden z-index-1 front-side bg-white border-radius-6px box-shadow-quadruple-large">
+              <div class=" z-index-2 p-30px">
+                <img
+                  class="mb-25px h-70px"
+                  src="img/developers/services/service_icon/demo-lawyer-practice-areas-icon-01.svg"
+                  alt="" />
+                <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">
+                  Sales & Marketing Support
+                </div>
+                <span>Brochures, creatives, project presentations, and marketing material to help you convert leads easily.</span>
+              </div>
+            </div>
+            <!-- end front side -->
+
+          </div>
         </div>
-        <div class="col text-center text-sm-start">
-          <span
-            class="alt-font fs-18 fw-700 d-block w-90 text-base-color border-bottom border-2 border-color-dark-gray pb-15px mb-15px xs-w-100"><i
-              class="feather icon-feather-users d-inline-block icon-small me-10px"></i>Join our team</span>
-          <a href="mailto:hire@propadvisor.co.in">hire@propadvisor.co.in</a><br />
-          <a href="mailto:hr@propadvisor.co.in">hr@propadvisor.co.in</a>
+        <!-- end rotate box item -->
+
+        <!-- start rotate box item -->
+        <div class="col  mb-30px">
+          <div class="w-100 min-h-300px text-center ">
+            <!-- start front side -->
+            <div
+              class="w-100 h-100 overflow-hidden z-index-1 front-side bg-white border-radius-6px box-shadow-quadruple-large">
+              <div class=" z-index-2 p-30px">
+                <img
+                  class="mb-25px h-70px"
+                  src="img/developers/services/service_icon/demo-lawyer-practice-areas-icon-01.svg"
+                  alt="" />
+                <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">
+                  Dedicated Relationship Manager
+                </div>
+                <span>A single point of contact to assist with bookings, inventory, and documentation.</span>
+              </div>
+            </div>
+            <!-- end front side -->
+
+          </div>
+        </div>
+        <!-- end rotate box item -->
+
+        <!-- start rotate box item -->
+        <div class="col  mb-30px">
+          <div class="w-100 min-h-300px text-center ">
+            <!-- start front side -->
+            <div
+              class="w-100 h-100 overflow-hidden z-index-1 front-side bg-white border-radius-6px box-shadow-quadruple-large">
+              <div class=" z-index-2 p-30px">
+                <img
+                  class="mb-25px h-70px"
+                  src="img/developers/services/service_icon/demo-lawyer-practice-areas-icon-01.svg"
+                  alt="" />
+                <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">
+                  Quick Commission Payouts
+                </div>
+                <span>Reliable and timely payouts to ensure smooth business operations.</span>
+              </div>
+            </div>
+            <!-- end front side -->
+
+          </div>
+        </div>
+        <!-- end rotate box item -->
+
+        <!-- start rotate box item -->
+        <div class="col  mb-30px">
+          <div class="w-100 min-h-300px text-center ">
+            <!-- start front side -->
+            <div
+              class="w-100 h-100 overflow-hidden z-index-1 front-side bg-white border-radius-6px box-shadow-quadruple-large">
+              <div class=" z-index-2 p-30px">
+                <img
+                  class="mb-25px h-70px"
+                  src="img/developers/services/service_icon/demo-lawyer-practice-areas-icon-01.svg"
+                  alt="" />
+                <div class="fs-19 text-dark-gray alt-font fw-600 mb-5px">
+                  Latest Inventory Updates
+                </div>
+                <span>Regular updates on availability, pricing changes, and new project launches.</span>
+              </div>
+            </div>
+            <!-- end front side -->
+
+          </div>
+        </div>
+        <!-- end rotate box item -->
+
+      </div>
+    </div>
+  </section>
+  <!-- end section -->
+
+  <!-- start section -->
+  <section id="down-section zero_top">
+    <div class="container">
+      <div class="row justify-content-center mb-4">
+        <div
+          class="col-lg-7 text-center"
+          data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+          <!-- <span class="fs-20 text-crusoe-green text-dark"
+              >Developers service</span
+            > -->
+          <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px">
+            Our
+            <span class="fw-700 text-decoration-line-bottom-medium">USPs</span>
+          </h3>
         </div>
       </div>
-      <div
-        class="row justify-content-center g-0"
-        data-anime='{ "el": "childs", "translateX": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-        <div
-          class="col-auto text-center last-paragraph-no-margin icon-with-text-style-08 pt-20px pb-20px ps-8 pe-8 md-ps-30px md-pe-30px bg-gradient-flamingo-amethyst-green border-radius-100px xs-border-radius-30px">
-          <div
-            class="feature-box feature-box-left-icon-middle overflow-hidden">
-            <div class="feature-box-icon me-10px">
-              <i
-                class="bi bi-chat-text fs-24 icon-very-medium text-white"></i>
-            </div>
-            <div
-              class="feature-box-content last-paragraph-no-margin text-white text-uppercase fs-15 fw-600 ls-05px xs-lh-24">
-              Let's make something great work together.
-              <a
-                href="contact.php"
-                class="text-white text-decoration-line-bottom-medium">Got a project in mind?</a>
-            </div>
+      <div class="row align-items-center justify-content-center">
+
+
+        <div class="row justify-content-center">
+          <div class="col-lg-4 sm-mb-20px">
+            <ul class="pricing-table-style-12 pe-15px md-pe-0" data-anime='{ "el": "childs", "rotateX": [-40, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+              <li class="last-paragraph-no-margin">
+                <img src="img/channel/network.jpg" class="rounded-circle usp_imgs" alt="">
+                <div class="ms-30px xs-ms-0 flex-grow-1">
+                  <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                    <span class="fw-600 text-dark-gray"> Strong Developer Network</span>
+                    <!-- <div class="divider-style-03 divider-style-03-02 border-color-extra-medium-gray flex-grow-1 ms-20px me-20px"></div>
+                    <div class="ms-auto fw-600 text-dark-gray">$12.00</div> -->
+                  </div>
+                  <!-- <p>Lorem ipsum has been the industry.</p> -->
+                </div>
+              </li>
+              <li class="last-paragraph-no-margin">
+                <img src="img/channel/projects.jpg" class="rounded-circle usp_imgs" alt="">
+                <div class="ms-30px xs-ms-0 flex-grow-1">
+                  <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                    <span class="fw-600 text-dark-gray">Access to Premium Projects</span>
+                  </div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul class="pricing-table-style-12 ps-15px md-ps-0" data-anime='{ "el": "childs", "rotateX": [-40, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+              <li class="last-paragraph-no-margin">
+                <img src="img/channel/partner.jpg" class="rounded-circle usp_imgs" alt="">
+                <div class="ms-30px xs-ms-0 flex-grow-1">
+                  <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                    <span class="fw-600 text-dark-gray">Transparent Deal Process</span>
+
+                  </div>
+
+                </div>
+              </li>
+              <li class="last-paragraph-no-margin">
+                <img src="img/channel/support.jpg" class="rounded-circle usp_imgs" alt="">
+                <div class="ms-30px xs-ms-0 flex-grow-1">
+                  <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                    <span class="fw-600 text-dark-gray">End-to-End Support</span>
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <ul class="pricing-table-style-12 ps-15px md-ps-0" data-anime='{ "el": "childs", "rotateX": [-40, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+              <li class="last-paragraph-no-margin">
+                <img src="img/channel/booking.jpg" class="rounded-circle usp_imgs" alt="">
+                <div class="ms-30px xs-ms-0 flex-grow-1">
+                  <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                    <span class="fw-600 text-dark-gray">Fast Booking Assistance</span>
+
+                  </div>
+
+                </div>
+              </li>
+              <li class="last-paragraph-no-margin">
+                <img src="img/channel/commission.jpg" class="rounded-circle usp_imgs" alt="">
+                <div class="ms-30px xs-ms-0 flex-grow-1">
+                  <div class="d-flex align-items-center w-100 fs-18 mb-5px">
+                    <span class="fw-600 text-dark-gray">Reliable Commission Payouts</span>
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
           </div>
         </div>
       </div>
@@ -162,88 +419,122 @@
   <!-- end section -->
 
   <!-- start section -->
-  <section class="bg-very-light-gray position-relative">
+  <section
+    id="contact"
+    class="bg-theme-2 background-position-right-top background-no-repeat"
+    style="background-image: url(&quot;&quot;)">
     <div class="container">
-      <div class="row mb-8">
-        <div
-          class="col-xl-5 col-lg-6 md-mb-50px"
-          data-anime='{ "el": "childs", "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
+      <div
+        class="row justify-content-center"
+        data-anime='{"el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
+        <div class="col-lg-6 md-mb-50px contact-form-style-03">
           <div
-            class="bg-white border-radius-6px box-shadow-quadruple-large p-10 ps-12 pe-12 lg-ps-8 lg-pe-8 h-100 d-flex flex-wrap flex-column justify-content-center"
-            data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-            <img src="img/contact/contact_800x925.jpg" alt="" srcset="" />
-          </div>
-        </div>
-        <div
-          class="col-lg-6 offset-xl-1 md-mb-50px sm-mb-0"
-          data-anime='{ "el": "childs", "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-          <h3 class="text-dark-gray ls-minus-2px fw-700">
-            Looking for any help?
-          </h3>
-          <form
-            action="email-templates/contact-form.php"
-            method="post"
-            class="contact-form-style-03">
-            <label
-              for="exampleInputEmail1"
-              class="form-label fs-13 text-uppercase text-dark-gray fw-700 mb-0">Enter your name*</label>
-            <div class="position-relative form-group mb-20px">
-              <span class="form-icon"><i class="bi bi-emoji-smile text-dark-gray"></i></span>
-              <input
-                class="fs-15 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required"
-                id="exampleInputEmail1"
-                type="text"
-                name="name"
-                placeholder="What's your good name" />
-            </div>
-            <label
-              for="exampleInputEmail1"
-              class="form-label fs-13 text-uppercase text-dark-gray fw-700 mb-0">Email address*</label>
-            <div class="position-relative form-group mb-20px">
-              <span class="form-icon"><i class="bi bi-envelope text-dark-gray"></i></span>
-              <input
-                class="fs-15 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control required"
-                id="exampleInputEmail2"
-                type="email"
-                name="email"
-                placeholder="Enter your email address" />
-            </div>
-            <label
-              for="exampleInputEmail1"
-              class="form-label fs-13 text-uppercase text-dark-gray fw-700 mb-0">Your message</label>
-            <div class="position-relative form-group form-textarea mb-0">
-              <textarea
-                class="fs-15 ps-0 border-radius-0px border-color-dark-gray bg-transparent form-control"
-                name="comment"
-                placeholder="Describe about your project"
-                rows="3"></textarea>
-              <span class="form-icon"><i class="bi bi-chat-square-dots text-dark-gray"></i></span>
-            </div>
-            <div class="row mt-25px align-items-center">
-              <div class="col-xl-7 col-lg-12 col-sm-7 lg-mb-30px md-mb-0">
-                <p class="mb-0 fs-14 lh-22 text-center text-sm-start">
-                  We will never collect information about you without your
-                  explicit consent.
-                </p>
+            class="ps-16 pe-16 pt-13 pb-13 lg-p-10 border-radius-6px bg-white h-100 box-shadow-quadruple-large background-position-right-bottom background-no-repeat"
+            style="background-image: url(&quot;&quot;)">
+            <h3
+              class="fw-500 alt-font text-dark-gray text-uppercase ls-minus-2px">
+              Let’s Connect Over A Coffee
+            </h3>
+            <!-- start contact form -->
+            <form action="email-templates/contact-form.php" method="post">
+              <div class="position-relative form-group mb-15px">
+                <span class="form-icon text-dark-gray"><i class="bi bi-person icon-extra-medium"></i></span>
+                <input
+                  class="ps-0 border-radius-0px border-bottom bg-transparent border-1 border-color-extra-medium-gray form-control required"
+                  type="text"
+                  name="name"
+                  placeholder="Enter your name*" />
+              </div>
+              <div class="position-relative form-group mb-15px">
+                <span class="form-icon text-dark-gray"><i class="bi bi-envelope icon-extra-medium"></i></span>
+                <input
+                  class="ps-0 border-radius-0px border-bottom bg-transparent border-1 border-color-extra-medium-gray form-control required"
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email*" />
               </div>
               <div
-                class="col-xl-5 col-lg-12 col-sm-5 text-center text-sm-end text-lg-start text-xl-end xs-mt-25px">
-                <input
-                  id="exampleInputEmail3"
-                  type="hidden"
-                  name="redirect"
-                  value="" />
+                class="position-relative form-group form-textarea mt-15px mb-25px">
+                <textarea
+                  class="ps-0 border-radius-0px border-bottom bg-transparent border-1 border-color-extra-medium-gray form-control"
+                  name="comment"
+                  placeholder="Enter your message"
+                  rows="3"></textarea>
+                <span class="form-icon text-dark-gray"><i class="bi bi-chat-square-dots icon-extra-medium"></i></span>
+                <input type="hidden" name="redirect" value="" />
                 <button
-                  class="btn btn-dark-gray btn-medium btn-round-edge btn-box-shadow submit"
+                  class="btn btn-medium btn-round-edge btn-dark-gray btn-box-shadow mt-30px submit w-100 fw-400"
                   type="submit">
                   Send message
                 </button>
+                <div class="form-results mt-20px d-none"></div>
               </div>
-              <div class="col-12 mt-20px mb-0 text-center text-md-start">
-                <div class="form-results d-none"></div>
+              <span class="fs-14 lh-24 d-block w-80 lg-w-95">I understand that my data will be hold securely in accordance
+                with the
+                <a href="#" class="text-dark-gray text-decoration-line-bottom">privacy policy.</a></span>
+            </form>
+            <!-- end contact form -->
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="ps-2 pt-13 pb-13 lg-p-9 md-p-0 h-100 text-white">
+            <h2 class="fw-500 alt-font text-dark text-uppercase ">
+              Become a Channel Partner Today
+            </h2>
+            <!-- <span
+              class="d-block text-uppercase mb-10px text-base-color fw-500">Join our growing network of channel partners and unlock new opportunities in real estate.</span> -->
+
+            <div class="row mt-10 md-mt-8">
+              <!-- start features box item -->
+              <div class="col-12 icon-with-text-style-08 mb-25px">
+                <div
+                  class="feature-box feature-box-left-icon-middle border-bottom pb-25px border-color-extra-medium-gray">
+                  <div class="feature-box-icon me-25px lh-0px">
+                    <i
+                      class="bi bi-telephone-outbound icon-medium text-gold"></i>
+                  </div>
+                  <div class="feature-box-content">
+                    <span class="text-base-color">Feel free to get in touch?</span>
+                    <span class="d-block fw-500 fs-18"><a
+                        href="tel:+91 9029929777"
+                        class="text-gold text-dark">+91 9029929777</a></span>
+                  </div>
+                </div>
               </div>
+              <!-- end features box item -->
+              <!-- start features box item -->
+              <div class="col-12 icon-with-text-style-08 mb-25px">
+                <div
+                  class="feature-box feature-box-left-icon-middle border-bottom pb-25px border-color-extra-medium-gray">
+                  <div class="feature-box-icon me-25px lh-0px">
+                    <i class="bi bi-envelope-open icon-medium text-gold"></i>
+                  </div>
+                  <div class="feature-box-content">
+                    <span class="text-base-color">How can we help you?</span>
+                    <span class="d-block fw-500 fs-18"><a
+                        href="mailto:help@propadvisor.co.in"
+                        class="text-dark">help@propadvisor.co.in</a></span>
+                  </div>
+                </div>
+              </div>
+              <!-- end features box item -->
+              <!-- start features box item -->
+              <div class="col-12 icon-with-text-style-08">
+                <div class="feature-box feature-box-left-icon-middle">
+                  <div class="feature-box-icon me-25px lh-0px">
+                    <i class="bi bi-chat-text icon-medium text-gold"></i>
+                  </div>
+                  <div class="feature-box-content">
+                    <span class="text-base-color">Are you ready for partnership?</span>
+                    <span class="text-dark d-block fw-500 fs-18">
+                      Office 301,3rd Floor, Wing E, Mayuresh Delta, Sector
+                      10B, Ulwe, Navi Mumbai, Maharashtra - 410206</span>
+                  </div>
+                </div>
+              </div>
+              <!-- end features box item -->
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>

@@ -50,8 +50,7 @@
           </div>
           <div>
             <span
-              class="opacity-5 fs-20 w-70 md-w-85 mb-25px fw-300 d-inline-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
-              atque asperiores .</span>
+              class="opacity-5 fs-20 w-70 md-w-85 mb-25px fw-300 d-inline-block">Explore the best residential and investment opportunities with trusted real estate experts. .</span>
           </div>
           <div class="icon-with-text-style-08">
             <a href="contact.php">
@@ -175,7 +174,7 @@
           <!-- start sliding box item -->
           <div class="sliding-box-item">
             <div class="sliding-box-img overflow-hidden">
-              <img src="img/buyers/services_3.jpg" alt="" class="w-100" />
+              <img src="img/buyers/services_03.jpg" alt="" class="w-100" />
             </div>
             <div
               class="d-flex flex-column align-items-start justify-content-center sliding-box-content bg-very-light-gray p-45px sm-p-25px">
@@ -202,7 +201,7 @@
           <!-- start sliding box item -->
           <div class="sliding-box-item md-mb-30px">
             <div class="sliding-box-img overflow-hidden">
-              <img src="img/buyers/services_4.jpg" alt="" class="w-100" />
+              <img src="img/buyers/services_04.jpg" alt="" class="w-100" />
             </div>
             <div
               class="d-flex flex-column align-items-start justify-content-center sliding-box-content bg-very-light-gray p-50px sm-p-25px">
@@ -220,7 +219,7 @@
           <!-- start sliding box item -->
           <div class="sliding-box-item active md-mb-30px">
             <div class="sliding-box-img overflow-hidden">
-              <img src="img/buyers/services_5.jpg" alt="" class="w-100" />
+              <img src="img/buyers/services_05.jpg" alt="" class="w-100" />
             </div>
             <div
               class="d-flex flex-column align-items-start justify-content-center sliding-box-content bg-very-light-gray p-50px sm-p-25px">
@@ -240,7 +239,7 @@
           <!-- start sliding box item -->
           <div class="sliding-box-item">
             <div class="sliding-box-img overflow-hidden">
-              <img src="img/buyers/services_6.jpg" alt="" class="w-100" />
+              <img src="img/buyers/services_06.jpg" alt="" class="w-100" />
             </div>
             <div
               class="d-flex flex-column align-items-start justify-content-center sliding-box-content bg-very-light-gray p-45px sm-p-25px">
@@ -853,7 +852,7 @@
             style="background-image: url(&quot;&quot;)">
             <h3
               class="fw-500 alt-font text-dark-gray text-uppercase ls-minus-2px">
-              Get in touch now!
+              Let’s Connect Over A Coffee
             </h3>
             <!-- start contact form -->
             <form action="email-templates/contact-form.php" method="post">

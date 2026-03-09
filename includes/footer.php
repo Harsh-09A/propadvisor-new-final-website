@@ -116,16 +116,16 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-7 last-paragraph-no-margin">
+          <!-- <div class="col-md-7 last-paragraph-no-margin text-white-50">
             <p class="fs-13 lh-22 w-95 sm-w-100">
               This site is protected by reCAPTCHA and the Google privacy policy
               and terms of service apply. You must not use this website if you
               disagree with any of these website standard terms and conditions.
             </p>
-          </div>
-          <div class="col-md-5 text-md-end sm-mt-15px last-paragraph-no-margin">
+          </div> -->
+          <div class="col-md-12  sm-mt-15px last-paragraph-no-margin text-white text-center">
             <p class="fs-13 lh-22">
-              &copy; 2025 Powered by
+              &copy; 2026 Powered by
               <a
                 href="https://letsdigin.in/"
                 target="_blank"

@@ -104,12 +104,13 @@
                   <!--  -->
 
                   <figcaption class="d-flex flex-column justify-content-end h-100 ps-7 pe-7 pt-6 pb-6">
-                    <div class="blog-categories mb-auto">
+                    <!-- <div class="blog-categories mb-auto">
                       <a href="<?php echo buildUrl('case-studies-details.php', $case['slug']); ?>"
                         class="categories-btn bg-white text-dark-gray text-uppercase alt-font fw-700 ms-0 mb-auto align-self-start">
-                        <?php echo $case['categories'][0]; ?>
+                        <?php //echo $case['categories'][0]; 
+                        ?>
                       </a>
-                    </div>
+                    </div> -->
 
                     <?php
                     // Format the date

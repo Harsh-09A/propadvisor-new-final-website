@@ -56,7 +56,7 @@ if (!$blog) {
   <?php include_once "./includes/header.php" ?>
 
   <!-- start section -->
-  <section class="top-space-margin">
+  <section class="top-space-margin blogs-details-page">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
@@ -87,7 +87,7 @@ if (!$blog) {
   <!-- end section -->
 
   <!-- start section -->
-  <section class="py-0 ps-13 pe-13 lg-ps-4 lg-pe-4 sm-px-0">
+  <section class="py-0 ps-13 pe-13 lg-ps-4 lg-pe-4 sm-px-0 blogs-details-page">
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-12">
@@ -103,7 +103,7 @@ if (!$blog) {
   <!-- end section -->
 
   <!-- start section -->
-  <section>
+  <section class="blogs-details-page">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10">

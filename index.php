@@ -201,7 +201,7 @@
                   </span>
                   <div class="d-inline-block mt-10px sm-mt-30px">
                     <a
-                      href="case-studies.php"
+                      href="#"
                       class="btn btn-extra-large btn-white btn-switch-text btn-box-shadow d-inline-block me-20px sm-me-10px align-middle left-icon">
                       <span>
                         <span><i class="feather icon-feather-arrow-right"></i></span>
@@ -550,7 +550,7 @@
           class="col-lg-3 col-md-5 col-sm-6 last-paragraph-no-margin text-center text-sm-start">
           <span class="text-dark-gray fs-20 fw-600 d-inline-block mb-5px">Projects Launched</span>
           <p class="w-90 lg-w-100">
-            Lorem ipsum is simply dummy text the printing typesetting.
+            Successfully Delivered Landmark Developments.
           </p>
         </div>
       </div>
@@ -873,7 +873,7 @@
   <!-- end  impact section -->
 
   <!-- start case studies section -->
-  <section class="stack-box py-0 z-index-99">
+  <section class="stack-box py-0 z-index-99 d-none">
     <div class="stack-box-contain">
       <!-- start stack item -->
       <div class="stack-item stack-item-01 bg-white lg-pt-8 lg-pb-8 md-pb-0">

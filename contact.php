@@ -101,7 +101,7 @@
         </div>
       </div>
       <div
-        class="row row-cols-1 row-cols-xl-4 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 mb-6 sm-mb-8"
+        class="row row-cols-1 row-cols-xl-4 row-cols-lg-4 row-cols-md-2 row-cols-sm-2 mb-6 sm-mb-8 contact-links"
         data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
         <div class="col md-mb-30px text-center text-sm-start">
           <span
@@ -125,14 +125,14 @@
           <span
             class="alt-font fs-18 fw-700 d-block w-90 text-base-color border-bottom border-2 border-color-dark-gray pb-15px mb-15px xs-w-100"><i
               class="feather icon-feather-phone d-inline-block icon-small me-10px"></i>Call us directly</span>
-          <a href="tel:1800222000">+91 90299 29777</a><br />
-          <a href="tel:1800222002">+91 90299 29777</a>
+          <a href="tel:+91 90299 29777">+91 90299 29777</a><br />
+          <a href="tel:+91 74000 22275">+91 74000 22275</a>
         </div>
         <div class="col text-center text-sm-start">
           <span
             class="alt-font fs-18 fw-700 d-block w-90 text-base-color border-bottom border-2 border-color-dark-gray pb-15px mb-15px xs-w-100"><i
               class="feather icon-feather-users d-inline-block icon-small me-10px"></i>Join our team</span>
-          <a href="mailto:hire@propadvisor.co.in">hire@propadvisor.co.in</a><br />
+          <!-- <a href="mailto:hire@propadvisor.co.in">hire@propadvisor.co.in</a><br /> -->
           <a href="mailto:hr@propadvisor.co.in">hr@propadvisor.co.in</a>
         </div>
       </div>

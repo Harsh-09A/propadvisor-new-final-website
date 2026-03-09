@@ -144,9 +144,7 @@
 
             <li>
               <strong>Company </strong> (referred to as either "the Company",
-              "We", "Us" or "Our" in this Agreement) refers to DELTA GROUP,
-              DELTA GROUP, V Times Square, Level 13th, Plot No. 3, Sector-15,
-              Palm Beach Road, C.B.D. Belapur, Navi Mumbai-400 614.
+              "We", "Us" or "Our" in this Agreement) refers to PropAdvisor.
             </li>
 
             <li>
@@ -188,8 +186,8 @@
             </li>
 
             <li>
-              <strong>Website </strong> refers to The Delta Group, accessible
-              from https://www.thedeltagroup.co.in/
+              <strong>Website </strong> refers to PropAdvisor, accessible
+              from https://www.propadvisor.co.in/
             </li>
 
             <li>
@@ -490,7 +488,7 @@
           </strong>
           <p>If you have any questions about this Privacy Policy, You can contact us:</p>
           <ul class="list-style-policy">
-            <li>By visiting this page on our website: <a href="https://www.thedeltagroup.co.in/">https://www.thedeltagroup.co.in/</a>
+            <li>By visiting this page on our website: <a href="https://www.propadvisor.co.in/">https://www.propadvisor.co.in/</a>
             </li>
           </ul>
 

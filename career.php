@@ -93,7 +93,7 @@
                 <div class="atropos-inner">
                   <div data-atropos-offset="3">
                     <img
-                      src="img/about/about_us_800x925_2.jpg"
+                      src="img/career/career.jpg"
                       class="border-radius-6px w-100"
                       alt="" />
                   </div>

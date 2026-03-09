@@ -214,12 +214,12 @@
               class="col-sm-6 last-paragraph-no-margin text-center xs-mb-35px">
               <h2 class="fw-700 text-dark-gray mb-5px alt-font">30+</h2>
               <span class="fs-18 alt-font ls-minus-05px fw-500 text-dark-gray">Partnered Developers</span>
-              <p class="lh-24">Lorem simply text</p>
+              <p class="lh-24">Collaborating with India’s Most Trusted Developers.</p>
             </div>
             <div class="col-sm-6 last-paragraph-no-margin text-center">
               <h2 class="fw-700 text-dark-gray mb-5px alt-font">500+</h2>
               <span class="fs-18 alt-font ls-minus-05px fw-500 text-dark-gray">Satisfied Buyers</span>
-              <p class="lh-24">Lorem simply text</p>
+              <p class="lh-24">Turning Property Dreams into Reality.</p>
             </div>
           </div>
         </div>
@@ -266,7 +266,7 @@
                 750+
               </h2>
               <span
-                class="text-dark-gray fw-500 fs-20 xs-fs-18 alt-font ls-minus-05px">Channel Partner</span>
+                class="text-dark-gray fw-500 fs-20 xs-fs-18 alt-font ls-minus-05px">Channel Partners</span>
               <!-- <p class="text-light-opacity">Lorem ipsum dolor amet</p> -->
             </div>
             <!-- <div class="feature-box-overlay bg-base-color"></div> -->
