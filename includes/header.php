@@ -43,16 +43,20 @@
                   <a href="index.php" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item dropdown dropdown-with-icon-style02">
-                  <a href="about.php" class="nav-link">About</a>
+                  <a href="#" class="nav-link">About</a>
                   <i
                     class="fa-solid fa-angle-down"
-                    id="navbarDropdownMenuLink"
+                    id="aboutDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"></i>
                   <ul
                     class="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink">
+                    aria-labelledby="aboutDropdown">
+                    <li>
+                      <a href="about.php"><i class="bi bi-info-circle"></i>About Us
+                      </a>
+                    </li>
                     <li>
                       <a href="our-life.php"><i class="bi bi-briefcase"></i>Life At PropAdvisor
                       </a>

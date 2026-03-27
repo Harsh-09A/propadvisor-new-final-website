@@ -205,3 +205,10 @@ color: black;
 .blogs-details-page strong{
   color: var(--base-color) !important;
 }
+
+@media (max-width: 575px) {
+  .pricing-table-style-12 li {
+    display: flex;
+    flex-direction: column;
+}
+}

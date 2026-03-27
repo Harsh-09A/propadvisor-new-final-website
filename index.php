@@ -51,7 +51,7 @@
                     background-image: url(&quot;img/home/home_desktop_slider_1.jpg&quot;);
                   ">
                 <div
-                  class="text-dark d-flex justify-content-center align-items-lg-start align-items-center text-lg-start text-center flex-column h-100 home-slider-content"
+                  class="text-dark d-flex justify-content-lg-center align-items-lg-start align-items-center text-lg-start text-center flex-column h-100 home-slider-content"
                   data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                   <!-- <span
                       class="fs-15 fw-500 ls-05px mb-20px d-inline-block border-bottom border-2 border-color-transparent-dark-light text-uppercase">
@@ -114,7 +114,7 @@
                     background-image: url(&quot;img/home/home_desktop_slider_2.jpg&quot;);
                   ">
                 <div
-                  class="text-dark d-flex justify-content-center align-items-lg-start align-items-center text-lg-start text-center flex-column h-100 home-slider-content"
+                  class="text-dark d-flex justify-content-lg-center align-items-lg-start align-items-center text-lg-start text-center flex-column h-100 home-slider-content"
                   data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                   <!-- <span
                       class="fs-15 fw-500 ls-05px mb-20px d-inline-block border-bottom border-2 border-color-transparent-dark-light text-uppercase">
@@ -177,7 +177,7 @@
                     background-image: url(&quot;img/home/home_desktop_slider_3.jpg&quot;);
                   ">
                 <div
-                  class="text-dark d-flex justify-content-center align-items-lg-start align-items-center text-lg-start text-center flex-column h-100 home-slider-content"
+                  class="text-dark d-flex justify-content-lg-center align-items-lg-start align-items-center text-lg-start text-center flex-column h-100 home-slider-content"
                   data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                   <!-- <span
                       class="fs-15 fw-500 ls-05px mb-20px d-inline-block border-bottom border-2 border-color-transparent-dark-light text-uppercase">
@@ -241,7 +241,7 @@
                     background-image: url(&quot;img/home/home_desktop_slider_4.jpg&quot;);
                   ">
                 <div
-                  class="text-dark d-flex justify-content-center align-items-lg-start align-items-center text-lg-start text-center flex-column h-100 home-slider-content"
+                  class="text-dark d-flex justify-content-lg-center align-items-lg-start align-items-center text-lg-start text-center flex-column h-100 home-slider-content"
                   data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                   <!-- <span
                       class="fs-15 fw-500 ls-05px mb-20px d-inline-block border-bottom border-2 border-color-transparent-dark-light text-uppercase">
