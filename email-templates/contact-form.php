@@ -1,8 +1,8 @@
 <?php
 if (!empty($_POST['email'])) {
 
-  $receiver_email = 'harsh.autowebbed@gmail.com';
-  $receiver_name  = 'TEST NAME';
+  $receiver_email = 'info@propadvisor.co.in';
+  $receiver_name  = 'PropAdvisor';
   $subject        = 'Contact Form Details';
 
   $submits = $_POST;
@@ -122,6 +122,7 @@ if (!empty($_POST['email'])) {
   $mail->setFrom('test@autowebbed.com', 'Website Enquiry');
   $mail->addReplyTo($_POST['email'], $_POST['name']);
   $mail->addAddress($receiver_email, $receiver_name);
+  $mail->addCC('diginmediaprivatelimited@gmail.com');
 
   $mail->isHTML(true);
   $mail->Subject = $subject;
